@@ -8,22 +8,22 @@ See full inventory details: [Leviton Inventory Summary](https://hackmd.io/@1EbVa
 
 ## Storage Plan - Admiral Meatrack
 
-### Meatrack 規格
+### Meatrack Specs
 
-#### Fork-side Panel 尺寸
+#### Fork-side Panel Sizes
 
-| 型號 | 高度 (含100mm輪) | 寬度 | 適合 |
-|------|------------------|------|------|
-| H110 x W60 | 107 cm | 60 cm | 小型 |
-| H183 x W60 | 180 cm | 60 cm | 中型 |
-| H203 x W60 | 200 cm | 60 cm | 大型 |
-| H183 x W80 | 180 cm | 80 cm | 中型/寬 |
-| H203 x W80 | 200 cm | 80 cm | 大型/寬 |
+| Model | Height (w/ 100mm castor) | Width | Use |
+|-------|--------------------------|-------|-----|
+| H110 x W60 | 107 cm | 60 cm | Small |
+| H183 x W60 | 180 cm | 60 cm | Medium |
+| H203 x W60 | 200 cm | 60 cm | Large |
+| H183 x W80 | 180 cm | 80 cm | Medium/Wide |
+| H203 x W80 | 200 cm | 80 cm | Large/Wide |
 
-#### Length Profiles 長度
+#### Length Profiles
 
-| 型號 | 外部長度 | 內部可用 |
-|------|----------|----------|
+| Model | Outer Length | Inner Usable |
+|-------|--------------|--------------|
 | WALPSL080 | 79 cm | 70 cm |
 | WALPSL160 | 161 cm | 151 cm |
 | WALPSL180 | 179 cm | 170 cm |
@@ -31,18 +31,18 @@ See full inventory details: [Leviton Inventory Summary](https://hackmd.io/@1EbVa
 
 ---
 
-### 建議配置
+### Recommended Configuration
 
-#### Meatrack 1 & 2 - LED Fresnel (58台 + 26 Barn Doors)
+#### Meatrack 1 & 2 - LED Fresnel (58 units + 26 Barn Doors)
 
-| 項目 | 規格 |
+| Item | Spec |
 |------|------|
-| **型號** | H183 x W80 + WALPSL180 |
-| **尺寸** | 180cm 高 x 80cm 寬 x 179cm 長 |
-| **容量** | 每根掛管 5-6 台，6-8 層 = 30-48 台/車 |
-| **數量** | **2 台** |
+| **Model** | H183 x W80 + WALPSL180 |
+| **Size** | 180cm H x 80cm W x 179cm L |
+| **Capacity** | 5-6 per tube, 6-8 layers = 30-48 units/cart |
+| **Quantity** | **2 carts** |
 
-**放置內容：**
+**Contents:**
 | Item | Qty |
 |------|-----|
 | LFD32-50B (5600K) | 19 |
@@ -51,16 +51,16 @@ See full inventory details: [Leviton Inventory Summary](https://hackmd.io/@1EbVa
 
 ---
 
-#### Meatrack 3 - Ellipsoidal + Cyclorama (34台)
+#### Meatrack 3 - Ellipsoidal + Cyclorama (34 units)
 
-| 項目 | 規格 |
+| Item | Spec |
 |------|------|
-| **型號** | H203 x W80 + WALPSL180 |
-| **尺寸** | 200cm 高 x 80cm 寬 x 179cm 長 |
-| **容量** | 每根掛管 4-5 台，6-8 層 = 24-40 台 |
-| **數量** | **1 台** |
+| **Model** | H203 x W80 + WALPSL180 |
+| **Size** | 200cm H x 80cm W x 179cm L |
+| **Capacity** | 4-5 per tube, 6-8 layers = 24-40 units |
+| **Quantity** | **1 cart** |
 
-**放置內容：**
+**Contents:**
 | Item | Qty |
 |------|-----|
 | LED00-50B (5600K) | 11 |
@@ -72,13 +72,13 @@ See full inventory details: [Leviton Inventory Summary](https://hackmd.io/@1EbVa
 
 ---
 
-#### Cable Cart - DMX Cables (144條)
+#### Cable Cart - DMX Cables (144 cables)
 
-| 項目 | 規格 |
+| Item | Spec |
 |------|------|
-| **型號** | Slim-Line H183 x W60 + WALPSL160 |
-| **尺寸** | 180cm 高 x 60cm 寬 x 161cm 長 |
-| **數量** | **1 台** |
+| **Model** | Slim-Line H183 x W60 + WALPSL160 |
+| **Size** | 180cm H x 60cm W x 161cm L |
+| **Quantity** | **1 cart** |
 
 ---
 
@@ -93,10 +93,10 @@ See full inventory details: [Leviton Inventory Summary](https://hackmd.io/@1EbVa
 
 ---
 
-### 購買總結
+### Shopping List
 
-| 品項 | 數量 | 用途 |
-|------|------|------|
+| Item | Qty | Use |
+|------|-----|-----|
 | Meatrack H183 x W80 | 2 | Fresnel |
 | Meatrack H203 x W80 | 1 | Ellipsoidal + Cyc |
 | Cable Cart H183 x W60 | 1 | DMX Cables |
@@ -123,10 +123,10 @@ See full inventory details: [Leviton Inventory Summary](https://hackmd.io/@1EbVa
 
 ## TODO
 
-- [ ] 確認 Navy Yard 存放空間尺寸
-- [ ] 聯繫 Admiral Staging 詢價
-- [ ] 決定 Road Case 規格
-- [ ] 確認運送方式
+- [ ] Confirm Navy Yard storage space dimensions
+- [ ] Contact Admiral Staging for quote
+- [ ] Decide Road Case specs
+- [ ] Confirm shipping method
 
 ---
 
