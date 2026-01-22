@@ -106,9 +106,9 @@ See full inventory details: [Leviton Inventory Summary](Leviton_Inventory_Summar
 
 | Vendor | Product | Notes |
 |--------|---------|-------|
-| [Admiral Staging](https://www.admiralstaging.com/en-us/meatrack) | Meatrack | Modular, customizable (Netherlands) |
+| [Admiral Staging](https://www.admiralstaging.com/en-us/meatrack) | Meatrack | Modular (Netherlands, no US distributor) |
 | [Backstage Equipment](https://backstageweb.com/headcarte02.html) | Head Cart E-02 | Shelves, US-based |
-| [SSRC](https://ssrconline.com/fixture-cart.html) | Fixture Cart | Theatrical specialist |
+| [SSRC](https://ssrconline.com/fixture-cart.html) | Fixture Cart | US-based, 244x91x203cm, adjustable |
 
 ### NYC Local Suppliers
 
