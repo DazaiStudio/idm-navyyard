@@ -2,80 +2,131 @@
 
 ## Equipment Inventory
 
-See full inventory details: [Leviton_Inventory_Summary.md](./Leviton_Inventory_Summary.md)
+See full inventory details: [Leviton Inventory Summary](https://hackmd.io/@1EbVafgqShS-hmYso1vk2g/ryXlHCkUZg)
 
 ---
 
-## Storage Plan
+## Storage Plan - Admiral Meatrack
 
-### Proposed Setup: 2x Meat Carts + Road Cases
+### Meatrack 規格
 
-#### Meat Cart 1 - LED Fresnel
-| Item | Qty | Notes |
-|------|-----|-------|
-| LFD32-50B (5600K) | 19 | 320W Fresnel |
-| LFD32-30B (3200K) | 39 | 320W Fresnel |
-| LFD32-BDB Barn Doors | 26 | |
+#### Fork-side Panel 尺寸
 
-**Total: 58 Fresnels + 26 Barn Doors**
+| 型號 | 高度 (含100mm輪) | 寬度 | 適合 |
+|------|------------------|------|------|
+| H110 x W60 | 107 cm | 60 cm | 小型 |
+| H183 x W60 | 180 cm | 60 cm | 中型 |
+| H203 x W60 | 200 cm | 60 cm | 大型 |
+| H183 x W80 | 180 cm | 80 cm | 中型/寬 |
+| H203 x W80 | 200 cm | 80 cm | 大型/寬 |
 
-#### Meat Cart 2 - LED Ellipsoidal + Cyclorama
-| Item | Qty | Notes |
-|------|-----|-------|
-| LED00-50B (5600K) | 11 | Ellipsoidal Body |
-| LED00-30B (3200K) | 7 | Ellipsoidal Body |
-| LED18-LTB | 17 | Lens Tube 18-36° |
-| LED30-LTB | 5 | Lens Tube 30-50° |
-| LED08-LTB | 4 | Lens Tube 8-22° |
-| LWCYC-000 | 16 | LED Cyclorama |
+#### Length Profiles 長度
 
-**Total: 18 Ellipsoidals + 26 Lens Tubes + 16 Cyc**
+| 型號 | 外部長度 | 內部可用 |
+|------|----------|----------|
+| WALPSL080 | 79 cm | 70 cm |
+| WALPSL160 | 161 cm | 151 cm |
+| WALPSL180 | 179 cm | 170 cm |
+| WALPSL210 | 209 cm | 200 cm |
+
+---
+
+### 建議配置
+
+#### Meatrack 1 & 2 - LED Fresnel (58台 + 26 Barn Doors)
+
+| 項目 | 規格 |
+|------|------|
+| **型號** | H183 x W80 + WALPSL180 |
+| **尺寸** | 180cm 高 x 80cm 寬 x 179cm 長 |
+| **容量** | 每根掛管 5-6 台，6-8 層 = 30-48 台/車 |
+| **數量** | **2 台** |
+
+**放置內容：**
+| Item | Qty |
+|------|-----|
+| LFD32-50B (5600K) | 19 |
+| LFD32-30B (3200K) | 39 |
+| LFD32-BDB Barn Doors | 26 |
+
+---
+
+#### Meatrack 3 - Ellipsoidal + Cyclorama (34台)
+
+| 項目 | 規格 |
+|------|------|
+| **型號** | H203 x W80 + WALPSL180 |
+| **尺寸** | 200cm 高 x 80cm 寬 x 179cm 長 |
+| **容量** | 每根掛管 4-5 台，6-8 層 = 24-40 台 |
+| **數量** | **1 台** |
+
+**放置內容：**
+| Item | Qty |
+|------|-----|
+| LED00-50B (5600K) | 11 |
+| LED00-30B (3200K) | 7 |
+| LED18-LTB | 17 |
+| LED30-LTB | 5 |
+| LED08-LTB | 4 |
+| LWCYC-000 | 16 |
+
+---
+
+#### Cable Cart - DMX Cables (144條)
+
+| 項目 | 規格 |
+|------|------|
+| **型號** | Slim-Line H183 x W60 + WALPSL160 |
+| **尺寸** | 180cm 高 x 60cm 寬 x 161cm 長 |
+| **數量** | **1 台** |
+
+---
 
 #### Road Cases - PAR + Control Equipment
-| Item | Qty | Notes |
-|------|-----|-------|
-| PAR-ML | 30 | Multi-Lens PAR |
-| PPIC0-V48 | 1 | Console |
-| DMXSM-H18 | 2 | DMX Splitter |
-| NDS12-1E0 | 6 | Dimmer Packs |
-| DMX Cables | 144 | Various lengths |
+
+| Item | Qty |
+|------|-----|
+| PAR-ML | 30 |
+| PPIC0-V48 (Console) | 1 |
+| DMXSM-H18 (Splitter) | 2 |
+| NDS12-1E0 (Dimmer) | 6 |
+
+---
+
+### 購買總結
+
+| 品項 | 數量 | 用途 |
+|------|------|------|
+| Meatrack H183 x W80 | 2 | Fresnel |
+| Meatrack H203 x W80 | 1 | Ellipsoidal + Cyc |
+| Cable Cart H183 x W60 | 1 | DMX Cables |
+| Road Cases | TBD | PAR + Control |
 
 ---
 
 ## Where to Buy
 
-### Meat Carts / Fixture Racks
+### Admiral Staging (Meatrack & Cable Cart)
 
-| Vendor | Product | Notes | Link |
-|--------|---------|-------|------|
-| Admiral Staging | Meatrack | Modular system, max 400kg, aluminum/steel tubes | [admiralstaging.com](https://www.admiralstaging.com/en-us/meatrack) |
-| Backstage Equipment | Head Cart E-02 | Adjustable shelves, foot brake | [backstageweb.com](https://backstageweb.com/headcarte02.html) |
-| Applied Electronics | Rolling Racks | Custom fixture racks, 6061-T6 aluminum | [appliednn.com](https://www.appliednn.com/products/rolling-racks/) |
-| SSRC | Fixture Cart | | [ssrconline.com](https://ssrconline.com/fixture-cart.html) |
-| Filmtools | Head Cart E-02 | Same as Backstage | [filmtools.com](https://www.filmtools.com/headcarte02.html) |
+- Website: [admiralstaging.com](https://www.admiralstaging.com/en-us/meatrack)
 
-### Road Cases / Flight Cases
+### Road Cases
 
-| Vendor | Notes | Link |
-|--------|-------|------|
-| Gator Cases | Lifetime warranty, G-Tour series for moving heads/Leko/PAR | [gatorco.com](https://gatorco.com/shop-by-category/lighting/lighting-cases/) |
-| ProX | 3/8" plywood, rubber wheels | [proxdirect.com](https://www.proxdirect.com/products/browse/category/Lighting-Cases) |
-| Fiasco Cases | Custom inserts, made in California | [fiascocases.com](https://fiascocases.com/collections/lighting-cases) |
-| Pro Cases | Custom ATA cases | [procases.com](http://www.procases.com/products/lighting) |
-| RoadCasesUSA | 35+ years, factory direct | [roadcasesusa.com](https://www.roadcasesusa.com/categories/Lighting-Cases/) |
-| Full Compass | Various brands | [fullcompass.com](https://www.fullcompass.com/category/accessories/cases-bags/lighting-cases-bags/) |
-| GoKnight | Free tech support | [goknight.com](https://goknight.com/lighting-road-cases-bags/) |
-| GearSource | New & used options | [gearsource.com](https://gearsource.com/category/lighting-cases) |
-| Amazon/OSP | PAR can cases | [amazon.com](https://www.amazon.com/Cases-Flight-Fixtures-Casters-PAR-CASE-8C/dp/B06XYSFCNZ) |
+| Vendor | Link |
+|--------|------|
+| Gator Cases | [gatorco.com](https://gatorco.com/shop-by-category/lighting/lighting-cases/) |
+| ProX | [proxdirect.com](https://www.proxdirect.com/products/browse/category/Lighting-Cases) |
+| Fiasco Cases | [fiascocases.com](https://fiascocases.com/collections/lighting-cases) |
+| Full Compass | [fullcompass.com](https://www.fullcompass.com/category/accessories/cases-bags/lighting-cases-bags/) |
 
 ---
 
 ## TODO
 
-- [ ] Decide on meat cart vendor
-- [ ] Get quotes for 2 meat carts
-- [ ] Determine road case sizes needed for PAR + control gear
-- [ ] Measure storage space at Navy Yard
+- [ ] 確認 Navy Yard 存放空間尺寸
+- [ ] 聯繫 Admiral Staging 詢價
+- [ ] 決定 Road Case 規格
+- [ ] 確認運送方式
 
 ---
 
