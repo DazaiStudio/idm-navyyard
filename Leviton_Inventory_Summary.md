@@ -6,7 +6,7 @@
 
 ## 1. LED Fresnel Fixtures
 
-![LED Fresnel](image/fresnel.png)
+<img src="image/fresnel.png" width="200">
 
 | Model | Qty | Watt | Color Temp | Dimensions (cm) | Weight (kg) | DMX Ch | Sheet |
 |-------|-----|------|------------|-----------------|-------------|--------|-------|
@@ -18,7 +18,7 @@
 
 ## 2. LED Ellipsoidal Fixtures
 
-![LED Ellipsoidal](image/Ellipsoidal.png)
+<img src="image/Ellipsoidal.png" width="200">
 
 | Model | Qty | Watt | Color Temp | Dimensions (cm) | Weight (kg) | DMX Ch | Sheet |
 |-------|-----|------|------------|-----------------|-------------|--------|-------|
@@ -27,7 +27,7 @@
 
 ### Lens Tubes
 
-![Lens Tube](image/Lens Tubes_1.png)
+<img src="image/Lens Tubes_1.png" width="200">
 
 | Model | Qty | Field Angle | Weight (kg) | Sheet |
 |-------|-----|-------------|-------------|-------|
@@ -39,7 +39,7 @@
 
 ## 3. LED Cyclorama Fixtures
 
-![LED Cyclorama](image/Cyclorama.png)
+<img src="image/Cyclorama.png" width="200">
 
 | Model | Qty | Watt | Color | Dimensions (cm) | Weight (kg) | DMX Ch | Sheet |
 |-------|-----|------|-------|-----------------|-------------|--------|-------|
@@ -51,7 +51,7 @@
 
 ## 4. Multi-Lens PAR Fixtures
 
-![Multi-Lens PAR](image/PAR.png)
+<img src="image/PAR.png" width="200">
 
 | Model | Qty | Watt | Color Temp | Dimensions (cm) | Weight (kg) | DMX Ch | Sheet |
 |-------|-----|------|------------|-----------------|-------------|--------|-------|
@@ -65,15 +65,15 @@
 
 ### Console
 
-![Console](image/console.png)
+<img src="image/console.png" width="300">
 
 ### DMX Splitter
 
-![DMX Splitter](image/spliter.png)
+<img src="image/spliter.png" width="300">
 
 ### Dimmer
 
-![Dimmer](image/dimmer.png)
+<img src="image/dimmer.png" width="200">
 
 | Model | Qty | Description | Channels | Sheet |
 |-------|-----|-------------|----------|-------|
