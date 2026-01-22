@@ -6,20 +6,20 @@
 
 ## 1. LED Fresnel Fixtures
 
-| Model | Qty | Watt | Color Temp | Dimensions (mm) | Weight (kg) | DMX Ch | Sheet |
+| Model | Qty | Watt | Color Temp | Dimensions (cm) | Weight (kg) | DMX Ch | Sheet |
 |-------|-----|------|------------|-----------------|-------------|--------|-------|
 | LFD32-50B | 19 | 320W | 5600K | - | - | 1-5 | [Link](https://www.leviton.com/en/products/lfd32-50b) |
 | LFD32-30B | 39 | 320W | 3200K | - | - | 1-5 | [Link](https://www.leviton.com/en/products/lfd32-30b) |
-| LFD32-BDB (Barn Door) | 26 | - | - | 305 | - | - | - |
+| LFD32-BDB (Barn Door) | 26 | - | - | 30.5 | - | - | - |
 
 ---
 
 ## 2. LED Ellipsoidal Fixtures
 
-| Model | Qty | Watt | Color Temp | Dimensions (mm) | Weight (kg) | DMX Ch | Sheet |
+| Model | Qty | Watt | Color Temp | Dimensions (cm) | Weight (kg) | DMX Ch | Sheet |
 |-------|-----|------|------------|-----------------|-------------|--------|-------|
-| LED00-50B (Body) | 11 | 200W | 5600K | 250x470x350 | 8.3 | 1-5 | [Link](https://www.leviton.com/en/products/led00-50b) |
-| LED00-30B (Body) | 7 | 200W | 3200K | 250x470x350 | 8.3 | 1-5 | [Link](https://www.leviton.com/en/products/led00-30b) |
+| LED00-50B (Body) | 11 | 200W | 5600K | 25x47x35 | 8.3 | 1-5 | [Link](https://www.leviton.com/en/products/led00-50b) |
+| LED00-30B (Body) | 7 | 200W | 3200K | 25x47x35 | 8.3 | 1-5 | [Link](https://www.leviton.com/en/products/led00-30b) |
 
 ### Lens Tubes
 
@@ -33,9 +33,9 @@
 
 ## 3. LED Cyclorama Fixtures
 
-| Model | Qty | Watt | Color | Dimensions (mm) | Weight (kg) | DMX Ch | Sheet |
+| Model | Qty | Watt | Color | Dimensions (cm) | Weight (kg) | DMX Ch | Sheet |
 |-------|-----|------|-------|-----------------|-------------|--------|-------|
-| LWCYC-000 | 16 | 350W | **RGBW** | 408x630x208 | 12.6 | 2-4 | [Link](https://www.leviton.com/en/products/lwcyc-00b) |
+| LWCYC-000 | 16 | 350W | **RGBW** | 41x63x21 | 12.6 | 2-4 | [Link](https://www.leviton.com/en/products/lwcyc-00b) |
 
 > Note: 1 unit is used, 15 are new. **This is the only fixture with color changing capability.**
 
@@ -43,7 +43,7 @@
 
 ## 4. Multi-Lens PAR Fixtures
 
-| Model | Qty | Watt | Color Temp | Dimensions (mm) | Weight (kg) | DMX Ch | Sheet |
+| Model | Qty | Watt | Color Temp | Dimensions (cm) | Weight (kg) | DMX Ch | Sheet |
 |-------|-----|------|------------|-----------------|-------------|--------|-------|
 | PAR-ML | 30 | 750W max | Lamp dependent | - | - | 1 | [Link](https://www.leviton.com/en/products/par-ml) |
 
