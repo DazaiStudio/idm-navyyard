@@ -35,7 +35,7 @@
 
 | Model | Qty | Watt | Color | Dimensions (cm) | Weight (kg) | DMX Ch | Sheet |
 |-------|-----|------|-------|-----------------|-------------|--------|-------|
-| LWCYC-000 | 16 | 350W | **RGBW** | 41x63x21 | 12.6 | 4 | [Link](https://www.leviton.com/en/products/lwcyc-00b) |
+| LWCYC-000 | 16 | 350W | **RGBW** | 41x63x21 | 12.6 | 4 | [Link](https://goknight.com/leviton-lwcyc-00b-led-cyclorama-light/?srsltid=AfmBOoqnEnAqhTCssUTA43lIphcYGRx50o5ywYe_AAXaMJlH_bXmHgyO) |
 
 > Note: 1 unit is used, 15 are new. **This is the only fixture with color changing capability.**
 
@@ -45,7 +45,7 @@
 
 | Model | Qty | Watt | Color Temp | Dimensions (cm) | Weight (kg) | DMX Ch | Sheet |
 |-------|-----|------|------------|-----------------|-------------|--------|-------|
-| PAR-ML | 30 | 750W max | Lamp dependent | - | - | 1 | [Link](https://www.leviton.com/en/products/par-ml) |
+| PAR-ML | 30 | 750W max | Lamp dependent | - | - | 1 |  |
 
 > Note: Traditional lamp fixture (NOT LED). Includes 4 lenses per unit.
 
