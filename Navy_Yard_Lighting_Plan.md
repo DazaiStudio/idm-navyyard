@@ -33,13 +33,13 @@ See full inventory details: [Leviton Inventory Summary](Leviton_Inventory_Summar
 
 ---
 
-##### Meatrack 3 - Ellipsoidal + Cyclorama (34 units)
+##### Meatrack 3 - Ellipsoidal (18 bodies + 26 lens tubes)
 
 | Item | Spec |
 |------|------|
 | **Model** | H183 x W80 + WALPSL180 |
 | **Size** | 180cm H x 80cm W x 179cm L |
-| **Capacity** | 4-5 per tube, 6-8 layers = 24-40 units |
+| **Capacity** | ~20 units/cart |
 | **Quantity** | **1 cart** |
 
 **Contents:**
@@ -50,6 +50,21 @@ See full inventory details: [Leviton Inventory Summary](Leviton_Inventory_Summar
 | LED18-LTB | 17 |
 | LED30-LTB | 5 |
 | LED08-LTB | 4 |
+
+---
+
+##### Meatrack 4 - Cyclorama (16 units)
+
+| Item | Spec |
+|------|------|
+| **Model** | H183 x W80 + WALPSL180 |
+| **Size** | 180cm H x 80cm W x 179cm L |
+| **Capacity** | ~16 units/cart (4 tubes × 4 per tube) |
+| **Quantity** | **1 cart** |
+
+**Contents:**
+| Item | Qty |
+|------|-----|
 | LWCYC-000 | 16 |
 
 ---
@@ -79,7 +94,7 @@ See full inventory details: [Leviton Inventory Summary](Leviton_Inventory_Summar
 
 | Item | Qty | Use |
 |------|-----|-----|
-| Meatrack H183 x W80 | 3 | Fresnel / Ellipsoidal + Cyc |
+| Meatrack H183 x W80 | 4 | Fresnel (2) / Ellipsoidal (1) / Cyclorama (1) |
 | Cable Cart H183 x W60 | 1 | DMX Cables |
 | Road Cases | TBD | PAR + Control |
 
