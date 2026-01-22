@@ -6,6 +6,8 @@
 
 ## 1. LED Fresnel Fixtures
 
+![LED Fresnel](image/fresnel.png)
+
 | Model | Qty | Watt | Color Temp | Dimensions (cm) | Weight (kg) | DMX Ch | Sheet |
 |-------|-----|------|------------|-----------------|-------------|--------|-------|
 | LFD32-50B | 19 | 320W | 5600K | - | - | 5 | [Link](https://www.leviton.com/en/products/lfd32-50b) |
@@ -16,12 +18,16 @@
 
 ## 2. LED Ellipsoidal Fixtures
 
+![LED Ellipsoidal](image/Ellipsoidal.png)
+
 | Model | Qty | Watt | Color Temp | Dimensions (cm) | Weight (kg) | DMX Ch | Sheet |
 |-------|-----|------|------------|-----------------|-------------|--------|-------|
 | LED00-50B (Body) | 11 | 200W | 5600K | 25x47x35 | 8.3 | 5 | [Link](https://www.leviton.com/en/products/led00-50b) |
 | LED00-30B (Body) | 7 | 200W | 3200K | 25x47x35 | 8.3 | 5 | [Link](https://www.leviton.com/en/products/led00-30b) |
 
 ### Lens Tubes
+
+![Lens Tube](image/Lens Tubes_1.png)
 
 | Model | Qty | Field Angle | Weight (kg) | Sheet |
 |-------|-----|-------------|-------------|-------|
@@ -33,6 +39,8 @@
 
 ## 3. LED Cyclorama Fixtures
 
+![LED Cyclorama](image/Cyclorama.png)
+
 | Model | Qty | Watt | Color | Dimensions (cm) | Weight (kg) | DMX Ch | Sheet |
 |-------|-----|------|-------|-----------------|-------------|--------|-------|
 | LWCYC-000 | 16 | 350W | **RGBW** | 41x63x21 | 12.6 | 4 | [Link](https://goknight.com/leviton-lwcyc-00b-led-cyclorama-light/?srsltid=AfmBOoqnEnAqhTCssUTA43lIphcYGRx50o5ywYe_AAXaMJlH_bXmHgyO) |
@@ -43,6 +51,8 @@
 
 ## 4. Multi-Lens PAR Fixtures
 
+![Multi-Lens PAR](image/PAR.png)
+
 | Model | Qty | Watt | Color Temp | Dimensions (cm) | Weight (kg) | DMX Ch | Sheet |
 |-------|-----|------|------------|-----------------|-------------|--------|-------|
 | PAR-ML | 30 | 750W max | Lamp dependent | - | - | 1 |  |
@@ -52,6 +62,18 @@
 ---
 
 ## 5. Control Equipment
+
+### Console
+
+![Console](image/console.png)
+
+### DMX Splitter
+
+![DMX Splitter](image/spliter.png)
+
+### Dimmer
+
+![Dimmer](image/dimmer.png)
 
 | Model | Qty | Description | Channels | Sheet |
 |-------|-----|-------------|----------|-------|
