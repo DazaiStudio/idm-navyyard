@@ -8,38 +8,31 @@ See full inventory details: [Leviton Inventory Summary](https://hackmd.io/@1EbVa
 
 ## Storage Plan - Admiral Meatrack
 
-### Meatrack Specs
+### Meatrack: H183 x W80 + WALPSL180
 
-#### Fork-side Panel Sizes
+![Fork-side Panels W80](admiralstaging/images/meatrack-3.png)
 
-| Model | Height (w/ 100mm castor) | Width | Use |
-|-------|--------------------------|-------|-----|
-| H110 x W60 | 107 cm | 60 cm | Small |
-| H183 x W60 | 180 cm | 60 cm | Medium |
-| H203 x W60 | 200 cm | 60 cm | Large |
-| H183 x W80 | 180 cm | 80 cm | Medium/Wide |
-| H203 x W80 | 200 cm | 80 cm | Large/Wide |
+![Length Profiles](admiralstaging/images/meatrack-5.png)
 
-#### Length Profiles
+---
 
-| Model | Outer Length | Inner Usable |
-|-------|--------------|--------------|
-| WALPSL080 | 79 cm | 70 cm |
-| WALPSL160 | 161 cm | 151 cm |
-| WALPSL180 | 179 cm | 170 cm |
-| WALPSL210 | 209 cm | 200 cm |
+### Cable Cart: Slim-Line H183 x W60 + WALPSL160
+
+![Slim-Line Panels W60](admiralstaging/images/cablecart-2.png)
+
+![Cable Cart Length Profiles](admiralstaging/images/cablecart-4.png)
 
 ---
 
 ### Recommended Configuration
 
-#### Meatrack 1 & 2 - LED Fresnel (58 units + 26 Barn Doors)
+#### Meatrack 1 & 2 - LED Fresnel (58 units)
 
 | Item | Spec |
 |------|------|
 | **Model** | H183 x W80 + WALPSL180 |
 | **Size** | 180cm H x 80cm W x 179cm L |
-| **Capacity** | 5-6 per tube, 6-8 layers = 30-48 units/cart |
+| **Capacity** | ~20 units/cart (4 tubes × 5 per tube) |
 | **Quantity** | **2 carts** |
 
 **Contents:**
@@ -47,7 +40,8 @@ See full inventory details: [Leviton Inventory Summary](https://hackmd.io/@1EbVa
 |------|-----|
 | LFD32-50B (5600K) | 19 |
 | LFD32-30B (3200K) | 39 |
-| LFD32-BDB Barn Doors | 26 |
+
+> Note: Barn Doors (26 pcs) stored separately
 
 ---
 
@@ -55,8 +49,8 @@ See full inventory details: [Leviton Inventory Summary](https://hackmd.io/@1EbVa
 
 | Item | Spec |
 |------|------|
-| **Model** | H203 x W80 + WALPSL180 |
-| **Size** | 200cm H x 80cm W x 179cm L |
+| **Model** | H183 x W80 + WALPSL180 |
+| **Size** | 180cm H x 80cm W x 179cm L |
 | **Capacity** | 4-5 per tube, 6-8 layers = 24-40 units |
 | **Quantity** | **1 cart** |
 
@@ -97,8 +91,7 @@ See full inventory details: [Leviton Inventory Summary](https://hackmd.io/@1EbVa
 
 | Item | Qty | Use |
 |------|-----|-----|
-| Meatrack H183 x W80 | 2 | Fresnel |
-| Meatrack H203 x W80 | 1 | Ellipsoidal + Cyc |
+| Meatrack H183 x W80 | 3 | Fresnel / Ellipsoidal + Cyc |
 | Cable Cart H183 x W60 | 1 | DMX Cables |
 | Road Cases | TBD | PAR + Control |
 
