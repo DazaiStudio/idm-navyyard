@@ -10,8 +10,8 @@
 
 | Model | Qty | Watt | Color Temp | Dimensions (cm) | Weight (kg) | DMX Ch | Sheet |
 |-------|-----|------|------------|-----------------|-------------|--------|-------|
-| LFD32-50B | 19 | 320W | 5600K | - | - | 5 | [Link](https://www.leviton.com/en/products/lfd32-50b) |
-| LFD32-30B | 39 | 320W | 3200K | - | - | 5 | [Link](https://www.leviton.com/en/products/lfd32-30b) |
+| LFD32-50B | 19 | 320W | 5600K | 35x49x49 | - | 5 | [Link](https://www.leviton.com/en/products/lfd32-50b) |
+| LFD32-30B | 39 | 320W | 3200K | 35x49x49 | - | 5 | [Link](https://www.leviton.com/en/products/lfd32-30b) |
 | LFD32-BDB (Barn Door) | 26 | - | - | 30.5 | - | - | - |
 
 ---
