@@ -1,0 +1,9 @@
+# PDF files (too large for GitHub)
+*.pdf
+
+# macOS
+.DS_Store
+
+# Editor
+*.swp
+*.swo
