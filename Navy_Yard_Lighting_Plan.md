@@ -6,15 +6,11 @@ See full inventory details: [Leviton Inventory Summary](https://hackmd.io/@1EbVa
 
 ---
 
-## Storage Plan - Admiral Meatrack
+## Storage Plan - [Admiral Meatrack](https://www.admiralstaging.com/en-us/meatrack)
 
 ### Meatrack: H183 x W80 + WALPSL180
 
 ![Meatrack Example](admiralstaging/images/meatrack1.png)
-
-![Fork-side Panels W80](admiralstaging/images/meatrack-3.png)
-
-![Length Profiles](admiralstaging/images/meatrack-5.png)
 
 ---
 
