@@ -8,11 +8,11 @@ See full inventory details: [Leviton Inventory Summary](Leviton_Inventory_Summar
 
 ## Storage Plan
 
-### Fixture
+### Fixture Storage
 
 #### [Admiral Meatrack](https://www.admiralstaging.com/en-us/meatrack): H183 x W80 + WALPSL180
 
-![Meatrack Example](https://raw.githubusercontent.com/DazaiStudio/idm-navyyard/main/admiralstaging/images/meatrack1.png)
+![Meatrack Example](admiralstaging/images/meatrack1.png)
 
 ##### Meatrack 1 & 2 - LED Fresnel (58 units)
 
