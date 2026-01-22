@@ -2,7 +2,7 @@
 
 ## Equipment Inventory
 
-See full inventory details: [Leviton Inventory Summary](https://hackmd.io/@1EbVafgqShS-hmYso1vk2g/ryXlHCkUZg)
+See full inventory details: [Leviton Inventory Summary](Leviton_Inventory_Summary.md)
 
 ---
 
