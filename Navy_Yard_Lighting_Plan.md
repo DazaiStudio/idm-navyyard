@@ -6,17 +6,15 @@ See full inventory details: [Leviton Inventory Summary](Leviton_Inventory_Summar
 
 ---
 
-## Storage Plan - [Admiral Meatrack](https://www.admiralstaging.com/en-us/meatrack)
+## Storage Plan
 
-### Meatrack: H183 x W80 + WALPSL180
+### Fixture
+
+#### [Admiral Meatrack](https://www.admiralstaging.com/en-us/meatrack): H183 x W80 + WALPSL180
 
 ![Meatrack Example](admiralstaging/images/meatrack1.png)
 
----
-
-### Recommended Configuration
-
-#### Meatrack 1 & 2 - LED Fresnel (58 units)
+##### Meatrack 1 & 2 - LED Fresnel (58 units)
 
 | Item | Spec |
 |------|------|
@@ -35,7 +33,7 @@ See full inventory details: [Leviton Inventory Summary](Leviton_Inventory_Summar
 
 ---
 
-#### Meatrack 3 - Ellipsoidal + Cyclorama (34 units)
+##### Meatrack 3 - Ellipsoidal + Cyclorama (34 units)
 
 | Item | Spec |
 |------|------|
@@ -56,7 +54,7 @@ See full inventory details: [Leviton Inventory Summary](Leviton_Inventory_Summar
 
 ---
 
-#### Cable Cart - DMX Cables (144 cables)
+### Cable Cart - DMX Cables (144 cables)
 
 | Item | Spec |
 |------|------|
@@ -66,7 +64,7 @@ See full inventory details: [Leviton Inventory Summary](Leviton_Inventory_Summar
 
 ---
 
-#### Road Cases - PAR + Control Equipment
+### Road Cases - PAR + Control Equipment
 
 | Item | Qty |
 |------|-----|
