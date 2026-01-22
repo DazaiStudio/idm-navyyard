@@ -10,17 +10,11 @@ See full inventory details: [Leviton Inventory Summary](https://hackmd.io/@1EbVa
 
 ### Meatrack: H183 x W80 + WALPSL180
 
+![Meatrack Example](admiralstaging/images/meatrack1.png)
+
 ![Fork-side Panels W80](admiralstaging/images/meatrack-3.png)
 
 ![Length Profiles](admiralstaging/images/meatrack-5.png)
-
----
-
-### Cable Cart: Slim-Line H183 x W60 + WALPSL160
-
-![Slim-Line Panels W60](admiralstaging/images/cablecart-2.png)
-
-![Cable Cart Length Profiles](admiralstaging/images/cablecart-4.png)
 
 ---
 
