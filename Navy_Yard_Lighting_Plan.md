@@ -1,4 +1,4 @@
-# Navy Yard Lighting Plan
+# Navy Yard Lighting Storage Plan
 
 ## Equipment Inventory
 
@@ -10,28 +10,35 @@ See full inventory details: [Leviton Inventory Summary](Leviton_Inventory_Summar
 
 ### Equipment to Store
 
-| Equipment | Qty | Dimensions (cm) | Weight (kg) |
-|-----------|-----|-----------------|-------------|
-| LED Fresnel (LFD32) | 58 | 35 × 49 × 49 | ~8-10 each |
-| LED Cyclorama (LWCYC) | 16 | 41 × 63 × 21 | 12.6 each |
-| Barn Doors | 26 | Ø 30.5 | - |
+| Equipment | Qty | Dimensions (cm / in) | Weight (kg) |
+|-----------|-----|----------------------|-------------|
+| LED Fresnel (LFD32) | 58 | 35 × 49 × 49 / 14" × 19" × 19" | ~8-10 each |
+| LED Cyclorama (LWCYC) | 16 | 41 × 63 × 21 / 16" × 25" × 8" | 12.6 each |
+| Barn Doors | 26 | Ø 30.5 / Ø 12" | - |
 | DMX Cables | 144 | various | - |
 
-**Total Fresnel weight:** ~580 kg
-**Total Cyclorama weight:** ~200 kg
+**Total Fresnel weight:** ~580 kg (1,279 lbs)
+**Total Cyclorama weight:** ~200 kg (441 lbs)
 
 ---
 
 ## Storage Space
 
-<img src="image/storage-room-dimensions.jpg" width="400">
+<img src="image/storage-room-dimensions.png" width="600">
 
 | Dimension | Metric | Imperial |
 |-----------|--------|----------|
-| **Width** | 200 cm (2.0 m) | 78.7" (6.6 ft) |
-| **Depth** | 212 cm (2.12 m) | 83.5" (7.0 ft) |
-| **Height** | 250 cm (2.5 m) | 98.4" (8.2 ft) |
-| **Area** | 4.2 m² | 45.2 ft² |
+| **Width** | 280 cm | 110.2" (9.2 ft) |
+| **Total Depth** | 390 cm | 153.5" (12.8 ft) |
+| **Upper Section** | 180 cm | 70.8" (5.9 ft) |
+| **Lower Section** | 210 cm | 82.6" (6.9 ft) |
+| **Height** | 250 cm | 98.4" (8.2 ft) |
+| **Area** | ~9.2 m² | ~99 ft² |
+
+| Direction | Connects To |
+|-----------|-------------|
+| ← Left | WLAB |
+| → Right | MOCAP ROOM |
 
 ### 3D Model
 
@@ -63,69 +70,47 @@ See full inventory details: [Leviton Inventory Summary](Leviton_Inventory_Summar
 
 ---
 
-### Capacity Calculation
-
-#### Fresnel Storage
-
-| Parameter | Value |
-|-----------|-------|
-| Fresnel size | 35 × 49 × 49 cm (14" × 19" × 19") |
-| Shelf width | 122 cm (48") |
-| Units per row | 3 (35 cm × 3 = 105 cm) |
-| Shelf depth | 61 cm (24") |
-| Fresnel depth | 49 cm (19") ✓ fits |
-| Required layer height | ~55 cm (22") |
-| Usable layers per unit | 4 |
-| **Capacity per shelf unit** | **12 units** |
-| **Units needed for 58 Fresnel** | **5 shelf units** |
-
-#### Space Constraint
+### Space Layout
 
 ```
-Room Layout (Top View)
-
-         ┌─────────────────────────────────┐
-         │                                 │
-  200 cm │   Walking Space (~80 cm min)    │
-         │                                 │
-         ├───────────┬──────┬──────────────┤
-         │  Shelf A  │ Door │   Shelf B    │
-         │ (122 cm)  │      │  (122 cm)    │
-         └───────────┴──────┴──────────────┘
-                       212 cm
+                        280 cm (110.2")
+    ┌─────────────────────────────────────────┐
+    │            Upper Section                │
+    │              180 cm                     │ ──→ MOCAP ROOM
+    │                                         │
+    ├────────────────────┬────────────────────┤
+    │                    │                    │
+    │     Shelf A        │     Shelf B        │
+    │    (122 cm)        │    (122 cm)        │
+    │                    │                    │
+390 │────────────────────┴────────────────────│
+cm  │                                         │
+    │            Lower Section                │
+    │              210 cm                     │
+    │                                         │
+    │     Shelf C        │     Shelf D        │
+    │    (122 cm)        │    (122 cm)        │
+    │                    │                    │
+    └─────────────────────────────────────────┘
+                    ↓
+                  WLAB
 ```
 
-**問題：空間只能放 2-3 個架子，但標準排列 Fresnel 需要 5 個**
+**空間可容納 4 個 122 cm 寬架子** ✓
 
 ---
 
-### Revised Plan - Compact Storage
-
-#### 交錯排列 (Staggered Layout)
-
-Fresnel 的 yoke (C夾) 可以互相交錯，提高密度：
-
-```
-Layer side view (交錯排列):
-
-  ┌─┐ ┌─┐ ┌─┐
-  │ │ │ │ │ │   ← 前排 3 units
-┌─┘ └─┘ └─┘ └─┐
-│   │   │   │   ← 後排 3 units (offset)
-└───┴───┴───┘
-
-每層可放 6 units (交錯後)
-```
-
-#### Shelf Assignments
+### Shelf Assignments
 
 | Shelf | Contents | Qty | Notes |
 |-------|----------|-----|-------|
-| **Shelf A** | LED Fresnel | 30 | 5 layers × 6 units |
-| **Shelf B** | LED Fresnel | 28 | 5 layers × ~6 units |
-| **Shelf B (top)** | Barn Doors | 26 | 頂層 |
-| **Wall pipe** | Cyclorama | 16 | 牆掛式 |
-| **Cable bin** | DMX Cables | 144 | 地面或底層 |
+| **Shelf A** | LED Fresnel | 15 | 5 layers × 3 units |
+| **Shelf B** | LED Fresnel | 15 | 5 layers × 3 units |
+| **Shelf C** | LED Fresnel | 15 | 5 layers × 3 units |
+| **Shelf D-1~3** | LED Fresnel | 13 | Remaining |
+| **Shelf D-4** | Barn Doors | 26 | Top layer |
+| **Shelf D-5** | DMX Cables | 144 | Bottom layer / bins |
+| **Wall pipe** | Cyclorama | 16 | 深度 63 cm，用牆掛 |
 
 > **Note:** Cyclorama 深度 63 cm 超過架子 61 cm，建議用牆掛管存放
 
@@ -135,22 +120,11 @@ Layer side view (交錯排列):
 
 | Item | Model | Qty | Unit Price | Total |
 |------|-------|-----|------------|-------|
-| Extra Heavy Duty Shelf | 48" × 96" × 24" (4952T24) | 2 | $609 | $1,218 |
-| Extra Shelf | 48" × 24" (4952T34) | 4 | $99 | $396 |
-| Wall-mount pipe (Cyc) | 1.5" steel pipe, 200 cm | 2 | ~$50 | ~$100 |
+| Extra Heavy Duty Shelf | 48" × 96" × 24" (4952T24) | 4 | $609 | $2,436 |
+| Wall-mount pipe (Cyc) | 1.5" steel pipe, 280 cm | 2 | ~$60 | ~$120 |
+| Pipe flanges | Wall mount | 4 | ~$15 | ~$60 |
 | Cable storage bins | Large bins | 4 | ~$20 | ~$80 |
-| **Total** | | | | **~$1,794** |
-
----
-
-### Alternative: Fixture Cart
-
-如果交錯排列不可行，考慮專用燈具推車：
-
-| Vendor | Product | Size | Capacity | Notes |
-|--------|---------|------|----------|-------|
-| [SSRC](https://ssrconline.com/fixture-cart.html) | Fixture Cart | 244 × 91 × 203 cm (96" × 36" × 80") | ~30 fixtures | US-based |
-| [Admiral](https://www.admiralstaging.com/en-us/meatrack) | Meatrack | 180 × 80 × 179 cm (71" × 31" × 70") | ~20 fixtures | Netherlands |
+| **Total** | | | | **~$2,696** |
 
 ---
 
@@ -163,11 +137,11 @@ Layer side view (交錯排列):
 | McMaster-Carr | Extra Heavy Duty 48" × 96" × 24" | [4952T24](https://www.mcmaster.com/4952T24/) |
 | McMaster-Carr | Extra Shelves 48" × 24" | [4952T34](https://www.mcmaster.com/4952T34/) |
 
-### Fixture Storage
+### Fixture Storage (Alternative)
 
 | Vendor | Product | Notes |
 |--------|---------|-------|
-| [SSRC](https://ssrconline.com/fixture-cart.html) | Fixture Cart | US-based, adjustable |
+| [SSRC](https://ssrconline.com/fixture-cart.html) | Fixture Cart | US-based, 244 × 91 × 203 cm |
 | [Backstage Equipment](https://backstageweb.com/headcarte02.html) | Head Cart E-02 | US-based |
 
 ### NYC Local Suppliers
@@ -181,21 +155,20 @@ Layer side view (交錯排列):
 
 ## Summary
 
-| Option | Cost | Fits All? | Notes |
-|--------|------|-----------|-------|
-| **McMaster Shelves × 2** | ~$1,800 | Yes (交錯排列) | 需測試交錯可行性 |
-| **Fixture Cart × 2** | ~$2,000+ | Yes | 專業方案，可移動 |
-| **Hybrid (1 + 1)** | ~$1,500 | Yes | 折衷方案 |
+| Item | Qty | Notes |
+|------|-----|-------|
+| McMaster Shelf 48" × 96" × 24" | 4 | Fresnel + Barn Doors + Cables |
+| Wall Pipe | 2 | Cyclorama |
+| **Total Cost** | ~$2,700 | |
 
 ---
 
 ## TODO
 
-- [x] Confirm storage space dimensions (200 × 212 × 250 cm)
-- [ ] Decide: McMaster shelves vs fixture cart
-- [ ] Test Fresnel 交錯排列
-- [ ] Measure door width for cart access
-- [ ] Order storage solution
+- [x] Confirm storage space dimensions (280 × 390 × 250 cm)
+- [ ] Order McMaster shelving × 4
+- [ ] Install wall pipe for Cyclorama
+- [ ] Measure door width (WLAB / MOCAP access)
 
 ---
 
