@@ -35,11 +35,6 @@ See full inventory details: [Leviton Inventory Summary](Leviton_Inventory_Summar
 | **Height** | 250 cm | 98.4" (8.2 ft) |
 | **Area** | ~9.2 m² | ~99 ft² |
 
-| Direction | Connects To |
-|-----------|-------------|
-| ← Left | WLAB |
-| → Right | MOCAP ROOM |
-
 ### 3D Model
 
 | Perspective View | Top View |
