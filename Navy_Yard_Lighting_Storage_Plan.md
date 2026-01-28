@@ -38,7 +38,7 @@
 | LED Ellipsoidal | 2 | 25 × 47 × 35 / 10" × 19" × 14" |
 | LED Cyclorama (LWCYC) | 16 | 41 × 63 × 21 / 16" × 25" × 8" |
 
-See full inventory details: [Lighting Equipment Donation Inventory](Leviton_Inventory_Summary.md)
+See full inventory details: [Lighting Equipment Donation Inventory](Lighting_Equipment_Donation_Inventory.md)
 
 ---
 
