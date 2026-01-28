@@ -45,6 +45,15 @@ See full inventory details: [Leviton Inventory Summary](Leviton_Inventory_Summar
 |--------|----------|
 | <img src="image/blender-3d-model-view3.png" width="300"> | <img src="image/blender-3d-model-topview.png" width="300"> |
 
+#### 3D Model Legend
+
+| Color | Item | Dimensions (cm / in) |
+|-------|------|----------------------|
+| 🔴 Red | LED Fresnel | 35 × 49 × 49 / 14" × 19" × 19" |
+| 🟢 Green | LED Cyclorama | 41 × 63 × 21 / 16" × 25" × 8" |
+| 🟡 Yellow | Flexible (empty box, accessories) | 35 × 49 × 35 / 14" × 19" × 14" |
+| 🔵 Blue | Shelving Units | See below |
+
 ---
 
 ## Storage Plan
@@ -53,35 +62,29 @@ See full inventory details: [Leviton Inventory Summary](Leviton_Inventory_Summar
 
 <img src="image/mcmaster-extra-heavy-duty-shelving.png" width="400">
 
-#### Recommended Model
+#### Shelving Configuration
 
-| Spec | Imperial | Metric |
-|------|----------|--------|
-| **Model** | Extra Heavy Duty 48" × 96" × 24" | |
-| **Part Number** | 4952T24 | |
-| **Width** | 48" | 122 cm |
-| **Height** | 96" | 244 cm |
-| **Depth** | 24" | 61 cm |
-| **Shelves** | 5 layers (adjustable) | |
-| **Total Capacity** | 11,000 lbs | 4,990 kg |
-| **Per Shelf Capacity** | 4,000 lbs | 1,814 kg |
-| **Price** | $609 each | |
+| Shelf | Size (Imperial) | Size (Metric) | Part Number | Price |
+|-------|-----------------|---------------|-------------|-------|
+| **Shelf A** | 72" × 96" × 24" | 183 × 244 × 61 cm | 4952T19 | $828 |
+| **Shelf B** | 72" × 96" × 24" | 183 × 244 × 61 cm | 4952T19 | $828 |
+| **Shelf C** | 60" × 96" × 24" | 152 × 244 × 61 cm | 4952T18 | $702 |
+
+| Spec | Value |
+|------|-------|
+| **Shelves** | 5 layers (adjustable) |
+| **Total Capacity** | 10,000 - 11,000 lbs (4,500 - 5,000 kg) |
+| **Per Shelf Capacity** | 3,200 - 4,000 lbs (1,450 - 1,800 kg) |
 
 ---
 
 ### Shelf Assignments
 
-| Shelf | Contents | Qty | Notes |
-|-------|----------|-----|-------|
-| **Shelf A** | LED Fresnel | 15 | 5 layers × 3 units |
-| **Shelf B** | LED Fresnel | 15 | 5 layers × 3 units |
-| **Shelf C** | LED Fresnel | 15 | 5 layers × 3 units |
-| **Shelf D-1~3** | LED Fresnel | 13 | Remaining |
-| **Shelf D-4** | Barn Doors | 26 | Top layer |
-| **Shelf D-5** | DMX Cables | 144 | Bottom layer / bins |
-| **Wall pipe** | Cyclorama | 16 | 深度 63 cm，用牆掛 |
-
-> **Note:** Cyclorama 深度 63 cm 超過架子 61 cm，建議用牆掛管存放
+| Shelf | Contents | Notes |
+|-------|----------|-------|
+| **Shelf A (72")** | LED Fresnel (red) | Main Fresnel storage |
+| **Shelf B (72")** | LED Fresnel (red) + Flexible (yellow) | Fresnel + accessories |
+| **Shelf C (60")** | LED Cyclorama (green) + Flexible (yellow) | Cyc + empty boxes |
 
 ---
 
@@ -89,11 +92,9 @@ See full inventory details: [Leviton Inventory Summary](Leviton_Inventory_Summar
 
 | Item | Model | Qty | Unit Price | Total |
 |------|-------|-----|------------|-------|
-| Extra Heavy Duty Shelf | 48" × 96" × 24" (4952T24) | 4 | $609 | $2,436 |
-| Wall-mount pipe (Cyc) | 1.5" steel pipe, 280 cm | 2 | ~$60 | ~$120 |
-| Pipe flanges | Wall mount | 4 | ~$15 | ~$60 |
-| Cable storage bins | Large bins | 4 | ~$20 | ~$80 |
-| **Total** | | | | **~$2,696** |
+| Extra Heavy Duty Shelf | 72" × 96" × 24" (4952T19) | 2 | $828 | $1,656 |
+| Extra Heavy Duty Shelf | 60" × 96" × 24" (4952T18) | 1 | $702 | $702 |
+| **Total** | | | | **$2,358** |
 
 ---
 
@@ -124,19 +125,24 @@ See full inventory details: [Leviton Inventory Summary](Leviton_Inventory_Summar
 
 ## Summary
 
-| Item | Qty | Notes |
+| Item | Qty | Price |
 |------|-----|-------|
-| McMaster Shelf 48" × 96" × 24" | 4 | Fresnel + Barn Doors + Cables |
-| Wall Pipe | 2 | Cyclorama |
-| **Total Cost** | ~$2,700 | |
+| McMaster Shelf 72" × 96" × 24" | 2 | $1,656 |
+| McMaster Shelf 60" × 96" × 24" | 1 | $702 |
+| **Total Cost** | | **$2,358** |
+
+---
+
+## Resources
+
+- [3D Model (Blender)](yard-lightplan.blend)
 
 ---
 
 ## TODO
 
 - [x] Confirm storage space dimensions (280 × 390 × 250 cm)
-- [ ] Order McMaster shelving × 4
-- [ ] Install wall pipe for Cyclorama
+- [ ] Order McMaster shelving (2× 72" + 1× 60")
 - [ ] Measure door width (WLAB / MOCAP access)
 
 ---
