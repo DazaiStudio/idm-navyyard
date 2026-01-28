@@ -4,9 +4,9 @@
 
 ### [McMaster-Carr Extra Heavy Duty Shelving](https://www.mcmaster.com/products/shelving/shelving-1~/extra-heavy-duty-quick-assembly-shelving-9/)
 
-> **Note:** Shelving must be at least 24" (61 cm) below ceiling lights.
+> **Note:** Ceiling lights to floor is 250 cm (~98"). Shelving must be at least 24" (61 cm) below.
 
-#### Option A: 96" Height (244 cm) — Clearance: 6 cm / 2.4" ❌
+#### Option A: 96" Height (244 cm) — Clearance: 6 cm / 2.4" (not recommended)
 
 <img src="image/mcmaster-extra-heavy-duty-shelving.png" width="600">
 
@@ -16,7 +16,7 @@
 | 1 | 60" × 96" × 24" | 152 × 244 × 61 cm | 4952T28 | $721 | $721 |
 | **Total** | | | | | **$2,415** |
 
-#### Option B: 72" Height (183 cm) — Clearance: 67 cm / 26.4" ✓
+#### Option B: 72" Height (183 cm) — Clearance: 67 cm / 26.4" (recommended)
 
 <img src="image/mcmaster-shelving-option-b.png" width="600">
 
@@ -79,10 +79,10 @@ See full inventory details: [Leviton Inventory Summary](Leviton_Inventory_Summar
 
 | Color | Item | Dimensions (cm / in) |
 |-------|------|----------------------|
-| 🔴 Red | LED Fresnel | 35 × 49 × 49 / 14" × 19" × 19" |
-| 🟢 Green | LED Cyclorama | 41 × 63 × 21 / 16" × 25" × 8" |
-| 🟡 Yellow | Flexible (empty box, accessories) | 35 × 49 × 35 / 14" × 19" × 14" |
-| 🔵 Blue | Shelving Units | 72" / 60" × 72" × 24" |
+| Red | LED Fresnel | 35 × 49 × 49 / 14" × 19" × 19" |
+| Green | LED Cyclorama | 41 × 63 × 21 / 16" × 25" × 8" |
+| Yellow | Flexible (empty box, accessories) | 35 × 49 × 35 / 14" × 19" × 14" |
+| Blue | Shelving Units | 72" / 60" × 72" × 24" |
 
 ---
 
