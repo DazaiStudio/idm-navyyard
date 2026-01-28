@@ -45,7 +45,7 @@ See full inventory details: [Leviton Inventory Summary](Leviton_Inventory_Summar
 
 ## Storage Plan
 
-### McMaster-Carr Shelving
+### [McMaster-Carr Shelving](https://www.mcmaster.com/products/shelving/shelving-1~/extra-heavy-duty-quick-assembly-shelving-9/)
 
 <img src="image/mcmaster-extra-heavy-duty-shelving.png" width="400">
 
