@@ -37,9 +37,13 @@ See full inventory details: [Leviton Inventory Summary](Leviton_Inventory_Summar
 
 ### 3D Model
 
-| Perspective View | Top View |
-|------------------|----------|
-| <img src="image/blender-3d-model-perspective.png" width="300"> | <img src="image/blender-3d-model-topview.png" width="300"> |
+| View 1 | View 2 |
+|--------|--------|
+| <img src="image/blender-3d-model-view1.png" width="300"> | <img src="image/blender-3d-model-view2.png" width="300"> |
+
+| View 3 | Top View |
+|--------|----------|
+| <img src="image/blender-3d-model-view3.png" width="300"> | <img src="image/blender-3d-model-topview.png" width="300"> |
 
 ---
 
