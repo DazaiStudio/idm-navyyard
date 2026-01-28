@@ -65,39 +65,6 @@ See full inventory details: [Leviton Inventory Summary](Leviton_Inventory_Summar
 
 ---
 
-### Space Layout
-
-```
-              ←─────────── 280 cm ───────────→
-         ┌────────────────────────────────────┐   ↑
-         │                                    │   │
-         │          Upper Section             │  180 cm
-         │                                    │   │
-         │    ┌────────────────────────┐      │   ↓
-         │    │       Shelf D          │      │
-    ┌────┼────┴────────────────────────┴──────┤   ↑
-    │    │                                    │   │
-    │ S  │                                    │ S │
-    │ h  │                                    │ h │
-    │ e  │        Walking Space               │ e │
-    │ l  │                                    │ l │  210 cm
-    │ f  │                                    │ f │
-    │ A  │                                    │ B │
-    │    │                                    │   │
-    │    ├────────────────────────────────────┤   │
-    │    │           Shelf C                  │   │
-    └────┴────────────────────────────────────┘   ↓
-
-    Shelf A: 左下牆面
-    Shelf B: 右下牆面
-    Shelf C: 下牆面
-    Shelf D: 上前面（交界處）
-```
-
-**架子沿牆擺放，中間保留走道** ✓
-
----
-
 ### Shelf Assignments
 
 | Shelf | Contents | Qty | Notes |
