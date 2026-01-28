@@ -1,4 +1,4 @@
-# Leviton Lighting Equipment Donation Inventory
+# Lighting Equipment Donation Inventory
 
 **Condition: All items manufacturer shipped new**
 
