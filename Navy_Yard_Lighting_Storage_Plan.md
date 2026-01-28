@@ -1,6 +1,6 @@
 # Navy Yard Lighting Storage Plan
 
-## Shopping List
+## Purchase List
 
 ### [McMaster-Carr Extra Heavy Duty Shelving](https://www.mcmaster.com/products/shelving/shelving-1~/extra-heavy-duty-quick-assembly-shelving-9/)
 
