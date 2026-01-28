@@ -6,7 +6,7 @@
 
 > **Note:** Shelving must be at least 24" (61 cm) below ceiling lights.
 
-#### Option A: 96" Height
+#### Option A: 96" Height (244 cm) — Clearance: 6 cm / 2.4" ❌
 
 <img src="image/mcmaster-extra-heavy-duty-shelving.png" width="600">
 
@@ -16,7 +16,7 @@
 | 1 | 60" × 96" × 24" | 152 × 244 × 61 cm | 4952T28 | $721 | $721 |
 | **Total** | | | | | **$2,415** |
 
-#### Option B: 72" Height (Recommended)
+#### Option B: 72" Height (183 cm) — Clearance: 67 cm / 26.4" ✓
 
 <img src="image/mcmaster-shelving-option-b.png" width="600">
 
