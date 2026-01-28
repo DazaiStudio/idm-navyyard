@@ -26,7 +26,7 @@
 | 1 | 60" × 72" × 24" | 152 × 183 × 61 cm | 4952T18 | $702 | $702 |
 | **Total** | | | | | **$2,358** |
 
-> Option B: Top shelf remains usable as open space. Fixture capacity unchanged, only flexible storage reduced.
+> Option B (per Tommy's recommendation): Top shelf remains usable as open space. Fixture capacity unchanged, only flexible storage reduced.
 
 ---
 
