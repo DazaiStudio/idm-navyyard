@@ -175,20 +175,7 @@ Name: `RT_DownSample_CYC`
 
 Captures scene and outputs to Render Target.
 
-<table>
-<tr>
-<td>
-
-| Property | Value |
-|----------|-------|
-| Texture Target | RT_DownSample_CYC |
-| Capture Source | Final Color (LDR) |
-| FOV | Adjust as needed |
-
-</td>
-<td><img src="screenshot/BP_DnSampleCap.png" width="700"></td>
-</tr>
-</table>
+<img src="screenshot/BP_DnSampleCap.png" width="700">
 
 ---
 
