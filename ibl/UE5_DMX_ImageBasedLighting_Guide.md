@@ -36,24 +36,38 @@ PC (Ethernet) ──► Obsidian Netron EN12 (Art-Net to DMX) ──► LED CYC
 
 **Windows Path:** Settings > Network & Internet > Ethernet
 
+<table>
+<tr>
+<td>
+
 | Setting | Value |
 |---------|-------|
 | IP assignment | Manual |
 | IPv4 address | 10.108.12.51 |
 | IPv4 mask | 255.255.255.0 |
 
+</td>
+<td><img src="screenshot/physical/pc-network.png" width="350"></td>
+</tr>
+</table>
+
 > **Why 10.108.12.x?** The Netron EN12 default IP is 10.108.12.43. PC must be on the same subnet (10.108.12.x) to communicate via Art-Net. Choose any available IP in range 10.108.12.1-254 (except .43).
 
-<img src="screenshot/physical/pc-network.png" width="400">
-
 ## Netron EN12 Settings
+
+<table>
+<tr>
+<td>
 
 | Setting | Value |
 |---------|-------|
 | IP Address | 10.108.12.43 |
 | Status | No Cue (Standby) |
 
-<img src="screenshot/physical/dmxbox_setting.JPG" width="400">
+</td>
+<td><img src="screenshot/physical/dmxbox_setting.JPG" width="350"></td>
+</tr>
+</table>
 
 ---
 
@@ -77,6 +91,10 @@ Name: `DMXLib_CYC`
 
 In the **Library Settings** tab:
 
+<table>
+<tr>
+<td>
+
 | Setting | Value |
 |---------|-------|
 | Output Port | OutputPort1 |
@@ -85,7 +103,10 @@ In the **Library Settings** tab:
 | Extern Universe | 0 - 9 |
 | Enabled | ✓ |
 
-<img src="screenshot/dmx_output_setting-1.png" width="500">
+</td>
+<td><img src="screenshot/dmx_output_setting-1.png" width="400"></td>
+</tr>
+</table>
 
 ---
 
@@ -93,19 +114,25 @@ In the **Library Settings** tab:
 
 **Edit > Project Settings > Plugins > DMX**
 
+<table>
+<tr>
+<td>
+
 | Setting | Value |
 |---------|-------|
 | Protocol Type | Art Net |
 | Communication Type | Broadcast |
-| Network Interface Card IP | 192.168.1.91 (your NIC IP) |
+| Network Interface Card IP | (your NIC IP) |
 | Input into Engine | ✓ |
 | Local Universe Start | 1 |
 | Amount of Universes | 10 |
-| Protocol Universe Remap | (configure as needed) |
 | Send DMX by default | ✓ |
 | Receive DMX by default | ✓ |
 
-<img src="screenshot/dmx_output_setting-2.png" width="500">
+</td>
+<td><img src="screenshot/dmx_output_setting-2.png" width="400"></td>
+</tr>
+</table>
 
 ---
 
@@ -174,6 +201,10 @@ Each fixture uses 4 channels (RGBW).
 
 Name: `RT_DownSample_CYC`
 
+<table>
+<tr>
+<td>
+
 | Setting | Value |
 |---------|-------|
 | Size X | 128 |
@@ -183,7 +214,10 @@ Name: `RT_DownSample_CYC`
 | Address X | Clamp |
 | Address Y | Clamp |
 
-<img src="screenshot/dmx_pxiel_rendertarget.png" width="500">
+</td>
+<td><img src="screenshot/dmx_pxiel_rendertarget.png" width="400"></td>
+</tr>
+</table>
 
 ---
 
@@ -191,7 +225,9 @@ Name: `RT_DownSample_CYC`
 
 Place **BP_DownSampleSceneCapture_CYC** in the scene.
 
-### Settings
+<table>
+<tr>
+<td>
 
 | Property | Value |
 |----------|-------|
@@ -199,7 +235,10 @@ Place **BP_DownSampleSceneCapture_CYC** in the scene.
 | Capture Source | Final Color (LDR) |
 | FOV | Adjust as needed |
 
-<img src="screenshot/BP_DnSampleCap.png" width="500">
+</td>
+<td><img src="screenshot/BP_DnSampleCap.png" width="400"></td>
+</tr>
+</table>
 
 ---
 
