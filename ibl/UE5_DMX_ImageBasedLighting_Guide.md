@@ -4,7 +4,7 @@ Using DMX Pixel Mapping to convert scene capture to DMX signal output for LED CY
 
 **Demo:**
 
-![Demo](ue_demo.gif)
+<img src="ue_demo.gif" width="480">
 
 ---
 
@@ -30,7 +30,7 @@ Using DMX Pixel Mapping to convert scene capture to DMX signal output for LED CY
 PC (Ethernet) ──► Obsidian Netron EN12 (Art-Net to DMX) ──► LED CYC
 ```
 
-![Hardware Connection](screenshot/physical/connection.JPG)
+<img src="screenshot/physical/connection.JPG" width="400">
 
 ## Network Settings
 
@@ -85,7 +85,7 @@ In the **Library Settings** tab:
 | Extern Universe | 0 - 9 |
 | Enabled | ✓ |
 
-![DMX Output Settings](screenshot/dmx_output_setting-1.png)
+<img src="screenshot/dmx_output_setting-1.png" width="500">
 
 ---
 
@@ -105,7 +105,7 @@ In the **Library Settings** tab:
 | Send DMX by default | ✓ |
 | Receive DMX by default | ✓ |
 
-![DMX Project Settings](screenshot/dmx_output_setting-2.png)
+<img src="screenshot/dmx_output_setting-2.png" width="500">
 
 ---
 
@@ -138,7 +138,7 @@ In DMX Library **Fixture Types** tab:
 - Physical From: 0
 - Physical To: 1.0
 
-![Fixture Type](screenshot/fix_type.png)
+<img src="screenshot/fix_type.png" width="500">
 
 ### LWCYC-00B DMX Channel Chart (4COL Mode)
 
@@ -164,7 +164,7 @@ In **Fixture Patch** tab, assign DMX addresses for each CYC fixture:
 
 Each fixture uses 4 channels (RGBW).
 
-![Fixture Patch](screenshot/fix-patch.png)
+<img src="screenshot/fix-patch.png" width="500">
 
 ---
 
@@ -183,7 +183,7 @@ Name: `RT_DownSample_CYC`
 | Address X | Clamp |
 | Address Y | Clamp |
 
-![Render Target](screenshot/dmx_pxiel_rendertarget.png)
+<img src="screenshot/dmx_pxiel_rendertarget.png" width="500">
 
 ---
 
@@ -199,7 +199,7 @@ Place **BP_DownSampleSceneCapture_CYC** in the scene.
 | Capture Source | Final Color (LDR) |
 | FOV | Adjust as needed |
 
-![Scene Capture](screenshot/BP_DnSampleCap.png)
+<img src="screenshot/BP_DnSampleCap.png" width="500">
 
 ---
 
@@ -222,7 +222,7 @@ Select all LWCYC fixtures to add to Pixel Mapping.
 | Distribution | Configure based on fixture layout |
 | Apply Blur | (Optional) |
 
-![Pixel Mapping](screenshot/dmx_pxielmapping.png)
+<img src="screenshot/dmx_pxielmapping.png" width="500">
 
 ---
 
@@ -248,7 +248,7 @@ Event Tick
     +-- Pixel Mapping: RT_DownSample_CYC
 ```
 
-![Blueprint Manager](screenshot/BP_PxManager.png)
+<img src="screenshot/BP_PxManager.png" width="500">
 
 ---
 
@@ -261,7 +261,7 @@ Place in Level:
 3. **DirectionalLight** - Main scene light
 4. **SEQ_ABC_Test** - (Optional) Sequencer animation
 
-![Level Setup](screenshot/bp_pix.png)
+<img src="screenshot/bp_pix.png" width="500">
 
 ---
 
@@ -275,7 +275,7 @@ Manually test RGBW output for each fixture:
 |---------|-----|-------|------|-------|
 | LWCYC | 0-255 | 0-255 | 0-255 | 0-255 |
 
-![DMX Console](screenshot/dmx_mini-console_fortesting.png)
+<img src="screenshot/dmx_mini-console_fortesting.png" width="500">
 
 ---
 
