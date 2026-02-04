@@ -6,16 +6,47 @@ Using DMX Pixel Mapping to convert scene capture to DMX signal output for LED CY
 
 ---
 
-## Hardware Connection Setup
+## Overview
 
-### Equipment List
+- [Part 1: Physical Setup](#part-1-physical-setup) - Hardware connection and network configuration
+- [Part 2: Unreal Engine Setup](#part-2-unreal-engine-setup) - DMX plugin configuration and pixel mapping
+
+### Workflow Summary
+
+```
+Scene Capture 2D
+      |
+      v
+Render Target (128x128)
+      |
+      v
+DMX Pixel Mapping
+      |
+      v
+DMX Library (Fixture Patch)
+      |
+      v
+Art-Net Output (UDP Broadcast)
+      |
+      v
+Obsidian Netron EN12 (Art-Net to DMX)
+      |
+      v
+LED CYC Fixtures (RGBW)
+```
+
+---
+
+# Part 1: Physical Setup
+
+## Equipment List
 
 | Device | Purpose |
 |--------|---------|
 | Art-Net to DMX Converter | Art-Net to DMX512 + 12-port splitter |
 | LED CYC | RGBW fixture |
 
-### Connection Diagram
+## Connection Diagram
 
 ```
 PC (Ethernet) ──► Obsidian Netron EN12 (Art-Net to DMX) ──► LED CYC
@@ -23,7 +54,7 @@ PC (Ethernet) ──► Obsidian Netron EN12 (Art-Net to DMX) ──► LED CYC
 
 ![Hardware Connection](screenshot/physical/connection.JPG)
 
-### Network Settings
+## Network Settings
 
 **Windows Path:** Settings > Network & Internet > Ethernet
 
@@ -37,7 +68,7 @@ PC (Ethernet) ──► Obsidian Netron EN12 (Art-Net to DMX) ──► LED CYC
 
 <img src="screenshot/physical/pc-network.png" width="400">
 
-### Netron EN12 Settings
+## Netron EN12 Settings
 
 | Setting | Value |
 |---------|-------|
@@ -47,6 +78,8 @@ PC (Ethernet) ──► Obsidian Netron EN12 (Art-Net to DMX) ──► LED CYC
 <img src="screenshot/physical/dmxbox_setting.JPG" width="400">
 
 ---
+
+# Part 2: Unreal Engine Setup
 
 ## 1. Enable DMX Plugins
 
@@ -286,32 +319,6 @@ Manually test RGBW output for each fixture:
 | Pixel Mapping | DMXPM_PixelMap_CYC | Content/DMX/ |
 | Blueprint | BP_PixelMappingManager_CYC | Content/DMX/BP/ |
 | Blueprint | BP_DownSampleSceneCapture_CYC | Content/DMX/BP/ |
-
----
-
-## Workflow Summary
-
-```
-Scene Capture 2D
-      |
-      v
-Render Target (128x128)
-      |
-      v
-DMX Pixel Mapping
-      |
-      v
-DMX Library (Fixture Patch)
-      |
-      v
-Art-Net Output (UDP Broadcast)
-      |
-      v
-Obsidian Netron EN12 (Art-Net to DMX)
-      |
-      v
-LED CYC Fixtures (RGBW)
-```
 
 ---
 
