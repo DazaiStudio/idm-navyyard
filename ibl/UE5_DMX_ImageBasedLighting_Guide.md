@@ -112,7 +112,7 @@ PC (Ethernet) ──► Obsidian Netron EN12 (Art-Net to DMX) ──► LED CYC
 
 Manages fixtures, patches, and output ports.
 
-<img src="screenshot/dmx_pxiel_essential - dmxlib.png" width="120">
+<img src="screenshot/dmx_pxiel_essential - dmxlib.png" width="500">
 
 Name: `DMXLib_CYC`
 
@@ -147,7 +147,7 @@ Assigns DMX addresses to each fixture. Each fixture uses 4 channels (RGBW).
 
 Captures downsampled scene image for pixel mapping.
 
-<img src="screenshot/dmx_pxiel_essential - rt.png" width="120">
+<img src="screenshot/dmx_pxiel_essential - rt.png" width="500">
 
 Name: `RT_DownSample_CYC`
 
@@ -196,7 +196,7 @@ Captures scene and outputs to Render Target.
 
 Maps Render Target pixels to DMX fixtures.
 
-<img src="screenshot/dmx_pxiel_essential - dmxpixmapping.png" width="120">
+<img src="screenshot/dmx_pxiel_essential - dmxpixmapping.png" width="500">
 
 Name: `DMXPM_PixelMap_CYC`
 
@@ -260,7 +260,7 @@ Place in Level:
 
 **Window > DMX Control Console**
 
-<img src="screenshot/dmx_pxiel_essential - dmxconsole.png" width="120">
+<img src="screenshot/dmx_pxiel_essential - dmxconsole.png" width="500">
 
 Manually test RGBW output for each fixture:
 
