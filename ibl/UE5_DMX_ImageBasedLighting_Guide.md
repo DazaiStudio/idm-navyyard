@@ -199,12 +199,6 @@ Captures downsampled scene image for pixel mapping.
 
 <img src="screenshot/dmx_pxiel_essential - dmxconsole.png" width="700">
 
-Manually test RGBW output for each fixture:
-
-| Fixture | Red | Green | Blue | White |
-|---------|-----|-------|------|-------|
-| LWCYC | 0-255 | 0-255 | 0-255 | 0-255 |
-
 <img src="screenshot/dmx_mini-console_fortesting.png" width="700">
 
 ---
