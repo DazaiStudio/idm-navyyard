@@ -30,7 +30,7 @@ Using DMX Pixel Mapping to convert scene capture to DMX signal output for LED CY
 PC (Ethernet) ──► Obsidian Netron EN12 (Art-Net to DMX) ──► LED CYC
 ```
 
-<img src="screenshot/physical/connection.JPG" width="400">
+<img src="screenshot/physical/connection.JPG" width="600">
 
 ## Network Settings
 
