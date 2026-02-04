@@ -138,11 +138,7 @@ In DMX Library **Fixture Types** tab:
 
 ![Fixture Type](screenshot/fix_type.png)
 
-### LWCYC-00B Complete DMX Channel Chart
-
-![Channel Chart](screenshot/physical/ledcyc_channelchart.JPG)
-
-#### 4COL Mode (4 channels)
+### LWCYC-00B DMX Channel Chart (4COL Mode)
 
 | Ch | Control | DMX Value | Output |
 |----|---------|-----------|--------|
@@ -150,46 +146,6 @@ In DMX Library **Fixture Types** tab:
 | 2 | Green | 0-255 | Brightness 0-100% |
 | 3 | Blue | 0-255 | Brightness 0-100% |
 | 4 | White | 0-255 | Brightness 0-100% |
-
-#### HSI Mode (3 channels)
-
-| Ch | Control | DMX Value | Output |
-|----|---------|-----------|--------|
-| 1 | Hue | 0-255 | 0-360° |
-| 2 | Saturation | 0-255 | 0-100% |
-| 3 | Brightness | 0-255 | 0-100% |
-
-#### FIL Mode (2 channels) - 16 Color Effects
-
-| Ch | Control | DMX Value | Color |
-|----|---------|-----------|-------|
-| 1 | Brightness | 0-255 | 0-100% |
-| 2 | Color Select | 0-15 | Transparent |
-| | | 16-31 | Pale gold |
-| | | 32-47 | Straw yellow |
-| | | 48-63 | Light amber |
-| | | 64-79 | Chrome orange |
-| | | 80-95 | Hot pink |
-| | | 96-111 | Shocking pink |
-| | | 112-127 | Magenta |
-| | | 128-143 | Bright red |
-| | | 144-159 | Rose purple |
-| | | 160-175 | Light purple |
-| | | 176-191 | Moss green |
-| | | 192-207 | Dark green |
-| | | 208-223 | Primary blue |
-| | | 224-239 | Peacock blue |
-| | | 240-255 | Dark blue |
-
-#### CCT Mode (2 channels)
-
-| Ch | Control | DMX Value | Output |
-|----|---------|-----------|--------|
-| 1 | Brightness | 0-255 | 0-100% |
-| 2 | Color Temp | 0-63 | 3200K |
-| | | 64-127 | 4300K |
-| | | 128-191 | 5600K |
-| | | 192-255 | 6500K |
 
 ---
 
