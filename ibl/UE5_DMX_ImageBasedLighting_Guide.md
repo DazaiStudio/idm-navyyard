@@ -4,7 +4,7 @@ Using DMX Pixel Mapping to convert scene capture to DMX signal output for LED CY
 
 **Demo:**
 
-<img src="ue_demo.gif" width="640">
+<img src="ue_demo.gif" width="800">
 
 ---
 
@@ -47,7 +47,7 @@ PC (Ethernet) ──► Obsidian Netron EN12 (Art-Net to DMX) ──► LED CYC
 | IPv4 mask | 255.255.255.0 |
 
 </td>
-<td><img src="screenshot/physical/pc-network.png" width="350"></td>
+<td><img src="screenshot/physical/pc-network.png" width="500"></td>
 </tr>
 </table>
 
@@ -108,9 +108,9 @@ PC (Ethernet) ──► Obsidian Netron EN12 (Art-Net to DMX) ──► LED CYC
 
 ---
 
-## 3. Create DMX Library
+## 3. DMX Library
 
-**Content Browser > Right-click > DMX > DMX Library**
+Manages fixtures, patches, and output ports.
 
 <img src="screenshot/dmx_pxiel_essential - dmxlib.png" width="120">
 
@@ -122,13 +122,9 @@ In the **Library Settings** tab:
 
 <img src="screenshot/dmx_output_setting-1.png" width="500">
 
----
+### 3.2 Fixture Type
 
-## 4. Create Fixture Type
-
-In DMX Library **Fixture Types** tab:
-
-### Channel Configuration (4COL Mode)
+In **Fixture Types** tab:
 
 | Ch | Name | Attribute |
 |----|------|-----------|
@@ -139,9 +135,7 @@ In DMX Library **Fixture Types** tab:
 
 <img src="screenshot/fix_type.png" width="500">
 
----
-
-## 5. Create Fixture Patch
+### 3.3 Fixture Patch
 
 In **Fixture Patch** tab, assign DMX addresses for each CYC fixture:
 
@@ -158,9 +152,9 @@ Each fixture uses 4 channels (RGBW).
 
 ---
 
-## 6. Create Render Target
+## 4. Render Target
 
-**Content Browser > Right-click > Textures > Render Target**
+Captures downsampled scene image for pixel mapping.
 
 <img src="screenshot/dmx_pxiel_essential - rt.png" width="120">
 
@@ -186,9 +180,9 @@ Name: `RT_DownSample_CYC`
 
 ---
 
-## 7. Create Scene Capture 2D
+## 5. Scene Capture 2D
 
-Place **BP_DownSampleSceneCapture_CYC** in the scene.
+Captures scene and outputs to Render Target.
 
 <table>
 <tr>
@@ -207,19 +201,19 @@ Place **BP_DownSampleSceneCapture_CYC** in the scene.
 
 ---
 
-## 8. Configure DMX Pixel Mapping
+## 6. DMX Pixel Mapping
 
-**Content Browser > Right-click > DMX > DMX Pixel Mapping**
+Maps Render Target pixels to DMX fixtures.
 
 <img src="screenshot/dmx_pxiel_essential - dmxpixmapping.png" width="120">
 
 Name: `DMXPM_PixelMap_CYC`
 
-### 8.1 Add Fixture Group
+### 6.1 Add Fixture Group
 
 Select all LWCYC fixtures to add to Pixel Mapping.
 
-### 8.2 Pixel Mapping Settings
+### 6.2 Pixel Mapping Settings
 
 | Setting | Value |
 |---------|-------|
@@ -232,7 +226,7 @@ Select all LWCYC fixtures to add to Pixel Mapping.
 
 ---
 
-## 9. Blueprint Integration
+## 7. Blueprint Integration
 
 Create **BP_PixelMappingManager_CYC**
 
@@ -258,7 +252,7 @@ Event Tick
 
 ---
 
-## 10. Level Setup
+## 8. Level Setup
 
 Place in Level:
 
@@ -271,7 +265,7 @@ Place in Level:
 
 ---
 
-## 11. Testing - DMX Control Console
+## 9. Testing - DMX Control Console
 
 **Window > DMX Control Console**
 
