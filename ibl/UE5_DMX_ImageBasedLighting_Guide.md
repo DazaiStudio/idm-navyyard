@@ -35,7 +35,7 @@ PC (Ethernet) ──► Obsidian Netron EN12 (Art-Net to DMX) ──► LED CYC
 
 > **Why 10.108.12.x?** The Netron EN12 default IP is 10.108.12.43. PC must be on the same subnet (10.108.12.x) to communicate via Art-Net. Choose any available IP in range 10.108.12.1-254 (except .43).
 
-![PC Network Settings](screenshot/physical/pc-network.png)
+<img src="screenshot/physical/pc-network.png" width="400">
 
 ### Netron EN12 Settings
 
