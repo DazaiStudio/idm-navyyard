@@ -83,18 +83,9 @@ PC (Ethernet) ──► Obsidian Netron EN12 (Art-Net to DMX) ──► LED CYC
 
 ## 1. Enable DMX Plugins
 
-**Edit > Plugins** search "DMX", enable the following:
+**Edit > Plugins** search "DMX", enable all DMX-related plugins.
 
-| Plugin | Purpose |
-|--------|---------|
-| DMX Control Console | DMX testing console |
-| DMX Engine | DMX core functionality |
-| DMX Fixtures | Fixture Blueprints |
-| DMX Pixel Mapping | Pixel mapping (core feature) |
-| DMX Protocol | DMX protocol support |
-| Remote Control Protocol DMX | Remote control |
-
-![DMX Plugins](screenshot/dmx-plugin.png)
+<img src="screenshot/dmx-plugin.png" width="500">
 
 ---
 
