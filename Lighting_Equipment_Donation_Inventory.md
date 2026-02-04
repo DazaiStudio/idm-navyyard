@@ -47,6 +47,15 @@
 
 > Note: 1 unit is used, 15 are new. **This is the only fixture with color changing capability.**
 
+### DMX Channel Chart (4COL Mode)
+
+| Ch | Control | DMX Value | Output |
+|----|---------|-----------|--------|
+| 1 | Red | 0-255 | Brightness 0-100% |
+| 2 | Green | 0-255 | Brightness 0-100% |
+| 3 | Blue | 0-255 | Brightness 0-100% |
+| 4 | White | 0-255 | Brightness 0-100% |
+
 ---
 
 ## 4. Multi-Lens PAR Fixtures

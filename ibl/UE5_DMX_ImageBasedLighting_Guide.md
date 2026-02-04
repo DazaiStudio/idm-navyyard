@@ -137,15 +137,6 @@ In DMX Library **Fixture Types** tab:
 
 <img src="screenshot/fix_type.png" width="500">
 
-### LWCYC-00B DMX Channel Chart (4COL Mode)
-
-| Ch | Control | DMX Value | Output |
-|----|---------|-----------|--------|
-| 1 | Red | 0-255 | Brightness 0-100% |
-| 2 | Green | 0-255 | Brightness 0-100% |
-| 3 | Blue | 0-255 | Brightness 0-100% |
-| 4 | White | 0-255 | Brightness 0-100% |
-
 ---
 
 ## 5. Create Fixture Patch
