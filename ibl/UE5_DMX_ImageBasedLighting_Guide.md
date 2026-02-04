@@ -4,6 +4,49 @@
 
 ---
 
+## 硬件连接设置
+
+### 设备清单
+
+| 设备 | 型号 | 用途 |
+|------|------|------|
+| Art-Net 转换器 | Netron EN12 | Art-Net 转 DMX512 |
+| DMX Splitter | Obsidian Control Systems | DMX 信号分配 |
+| LED CYC | Leviton LWCYC-00B | RGBW 灯具 |
+
+### 连接方式
+
+```
+PC (Ethernet) ──► Netron EN12 (Art-Net to DMX) ──► Obsidian Splitter ──► LED CYC
+```
+
+![Hardware Connection](screenshot/physical/connection.JPG)
+
+### 网络设置
+
+**Windows 设置路径：** Settings > Network & Internet > Ethernet
+
+| 设置 | 值 |
+|------|-----|
+| IP assignment | Manual |
+| IPv4 address | 10.108.12.51 |
+| IPv4 mask | 255.255.255.0 |
+
+> 电脑与 DMX Box 必须在同一网段
+
+![PC Network Settings](screenshot/physical/pc-network.png)
+
+### Netron EN12 设置
+
+| 设置 | 值 |
+|------|-----|
+| IP Address | 10.108.12.43 |
+| Status | No Cue (待机) |
+
+![Netron EN12](screenshot/physical/dmxbox_setting.JPG)
+
+---
+
 ## 1. 启用 DMX 插件
 
 **Edit > Plugins** 搜索 "DMX"，启用以下插件：
@@ -93,6 +136,59 @@
 - Physical To: 1.0
 
 ![Fixture Type](screenshot/fix_type.png)
+
+### LWCYC-00B 完整 DMX Channel 表
+
+![Channel Chart](screenshot/physical/ledcyc_channelchart.JPG)
+
+#### 4COL Mode (4 channels)
+
+| Ch | Control | DMX Value | Output |
+|----|---------|-----------|--------|
+| 1 | Red | 0-255 | Brightness 0-100% |
+| 2 | Green | 0-255 | Brightness 0-100% |
+| 3 | Blue | 0-255 | Brightness 0-100% |
+| 4 | White | 0-255 | Brightness 0-100% |
+
+#### HSI Mode (3 channels)
+
+| Ch | Control | DMX Value | Output |
+|----|---------|-----------|--------|
+| 1 | Hue | 0-255 | 0-360° |
+| 2 | Saturation | 0-255 | 0-100% |
+| 3 | Brightness | 0-255 | 0-100% |
+
+#### FIL Mode (2 channels) - 16 色效果
+
+| Ch | Control | DMX Value | Color |
+|----|---------|-----------|-------|
+| 1 | Brightness | 0-255 | 0-100% |
+| 2 | Color Select | 0-15 | Transparent |
+| | | 16-31 | Pale gold |
+| | | 32-47 | Straw yellow |
+| | | 48-63 | Light amber |
+| | | 64-79 | Chrome orange |
+| | | 80-95 | Hot pink |
+| | | 96-111 | Shocking pink |
+| | | 112-127 | Magenta |
+| | | 128-143 | Bright red |
+| | | 144-159 | Rose purple |
+| | | 160-175 | Light purple |
+| | | 176-191 | Moss green |
+| | | 192-207 | Dark green |
+| | | 208-223 | Primary blue |
+| | | 224-239 | Peacock blue |
+| | | 240-255 | Dark blue |
+
+#### CCT Mode (2 channels)
+
+| Ch | Control | DMX Value | Output |
+|----|---------|-----------|--------|
+| 1 | Brightness | 0-255 | 0-100% |
+| 2 | Color Temp | 0-63 | 3200K |
+| | | 64-127 | 4300K |
+| | | 128-191 | 5600K |
+| | | 192-255 | 6500K |
 
 ---
 
@@ -252,6 +348,12 @@ DMX Library (Fixture Patch)
       |
       v
 Art-Net Output (UDP Broadcast)
+      |
+      v
+Netron EN12 (Art-Net to DMX)
+      |
+      v
+Obsidian DMX Splitter
       |
       v
 LED CYC Fixtures (RGBW)
