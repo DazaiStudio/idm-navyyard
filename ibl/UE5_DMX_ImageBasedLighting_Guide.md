@@ -44,7 +44,7 @@ PC (Ethernet) ──► Obsidian Netron EN12 (Art-Net to DMX) ──► LED CYC
 | IP Address | 10.108.12.43 |
 | Status | No Cue (Standby) |
 
-![Netron EN12](screenshot/physical/dmxbox_setting.JPG)
+<img src="screenshot/physical/dmxbox_setting.JPG" width="400">
 
 ---
 
