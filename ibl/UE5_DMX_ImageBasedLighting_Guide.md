@@ -135,12 +135,6 @@ In DMX Library **Fixture Types** tab:
 | 3 | `<Function>` | Blue |
 | 4 | `<Function>` | White |
 
-**Function Settings:**
-- Data Type: 8bit
-- Attribute Mapping: Red/Green/Blue/White
-- Physical From: 0
-- Physical To: 1.0
-
 <img src="screenshot/fix_type.png" width="500">
 
 ### LWCYC-00B DMX Channel Chart (4COL Mode)
