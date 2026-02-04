@@ -81,36 +81,7 @@ PC (Ethernet) ──► Obsidian Netron EN12 (Art-Net to DMX) ──► LED CYC
 
 ---
 
-## 2. Create DMX Library
-
-**Content Browser > Right-click > DMX > DMX Library**
-
-Name: `DMXLib_CYC`
-
-### 2.1 Configure Output Ports
-
-In the **Library Settings** tab:
-
-<table>
-<tr>
-<td>
-
-| Setting | Value |
-|---------|-------|
-| Output Port | OutputPort1 |
-| Protocol | Art-Net |
-| Local Universe | 1 - 10 |
-| Extern Universe | 0 - 9 |
-| Enabled | ✓ |
-
-</td>
-<td><img src="screenshot/dmx_output_setting-1.png" width="400"></td>
-</tr>
-</table>
-
----
-
-## 3. Project Settings - DMX
+## 2. Project Settings - DMX
 
 **Edit > Project Settings > Plugins > DMX**
 
@@ -131,6 +102,35 @@ In the **Library Settings** tab:
 
 </td>
 <td><img src="screenshot/dmx_output_setting-2.png" width="400"></td>
+</tr>
+</table>
+
+---
+
+## 3. Create DMX Library
+
+**Content Browser > Right-click > DMX > DMX Library**
+
+Name: `DMXLib_CYC`
+
+### 3.1 Configure Output Ports
+
+In the **Library Settings** tab:
+
+<table>
+<tr>
+<td>
+
+| Setting | Value |
+|---------|-------|
+| Output Port | OutputPort1 |
+| Protocol | Art-Net |
+| Local Universe | 1 - 10 |
+| Extern Universe | 0 - 9 |
+| Enabled | ✓ |
+
+</td>
+<td><img src="screenshot/dmx_output_setting-1.png" width="400"></td>
 </tr>
 </table>
 
