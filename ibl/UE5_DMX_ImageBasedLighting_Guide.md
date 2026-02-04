@@ -230,20 +230,7 @@ Event Tick
 
 ---
 
-## 8. Level Setup
-
-Place in Level:
-
-1. **BP_DownSampleSceneCapture_CYC** - Captures scene image
-2. **BP_PixelMappingManager_CYC** - Processes and sends DMX
-3. **DirectionalLight** - Main scene light
-4. **SEQ_ABC_Test** - (Optional) Sequencer animation
-
-<img src="screenshot/bp_pix.png" width="700">
-
----
-
-## 9. Testing - DMX Control Console
+## 8. Testing - DMX Control Console
 
 **Window > DMX Control Console**
 
