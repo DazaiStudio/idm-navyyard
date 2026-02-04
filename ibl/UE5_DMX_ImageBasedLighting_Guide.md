@@ -97,6 +97,7 @@ PC (Ethernet) ──► Obsidian Netron EN12 (Art-Net to DMX) ──► LED CYC
 | Input into Engine | ✓ |
 | Local Universe Start | 1 |
 | Amount of Universes | 10 |
+| Protocol Universe Remap | ✓ |
 | Send DMX by default | ✓ |
 | Receive DMX by default | ✓ |
 
