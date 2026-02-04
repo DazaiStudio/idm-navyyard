@@ -193,7 +193,7 @@ Captures downsampled scene image for pixel mapping.
 
 ---
 
-## 5. Tips - DMX Control Console
+## 5. Tips - DMX Control Console (For Quick Testing)
 
 **Window > DMX Control Console**
 
