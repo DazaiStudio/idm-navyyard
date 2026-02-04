@@ -93,7 +93,7 @@ PC (Ethernet) ──► Obsidian Netron EN12 (Art-Net to DMX) ──► LED CYC
 |---------|-------|
 | Protocol Type | Art Net |
 | Communication Type | Broadcast |
-| Network Interface Card IP | (your NIC IP) |
+| Network Interface Card IP | 10.108.12.51 |
 | Input into Engine | ✓ |
 | Local Universe Start | 1 |
 | Amount of Universes | 10 |
