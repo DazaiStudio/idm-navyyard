@@ -173,6 +173,8 @@ Sends pixel mapping data to DMX output every frame.
 
 <img src="screenshot/bp_pix.png" width="700">
 
+<img src="screenshot/BP_PxManager.png" width="700">
+
 ### 4.1 DMX Pixel Mapping
 
 Maps Render Target pixels to DMX fixtures.
