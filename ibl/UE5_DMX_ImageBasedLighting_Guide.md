@@ -2,6 +2,8 @@
 
 Using DMX Pixel Mapping to convert scene capture to DMX signal output for LED CYC fixtures.
 
+**Demo Video:** [ue_demo.mp4](ue_demo.mp4)
+
 ---
 
 ## Hardware Connection Setup
@@ -10,14 +12,13 @@ Using DMX Pixel Mapping to convert scene capture to DMX signal output for LED CY
 
 | Device | Model | Purpose |
 |--------|-------|---------|
-| Art-Net Converter | Netron EN12 | Art-Net to DMX512 |
-| DMX Splitter | Obsidian Control Systems | DMX signal distribution |
+| Art-Net to DMX Converter | Obsidian Netron EN12 | Art-Net to DMX512 + 12-port splitter |
 | LED CYC | Leviton LWCYC-00B | RGBW fixture |
 
 ### Connection Diagram
 
 ```
-PC (Ethernet) ──► Netron EN12 (Art-Net to DMX) ──► Obsidian Splitter ──► LED CYC
+PC (Ethernet) ──► Obsidian Netron EN12 (Art-Net to DMX) ──► LED CYC
 ```
 
 ![Hardware Connection](screenshot/physical/connection.JPG)
@@ -350,10 +351,7 @@ DMX Library (Fixture Patch)
 Art-Net Output (UDP Broadcast)
       |
       v
-Netron EN12 (Art-Net to DMX)
-      |
-      v
-Obsidian DMX Splitter
+Obsidian Netron EN12 (Art-Net to DMX)
       |
       v
 LED CYC Fixtures (RGBW)
