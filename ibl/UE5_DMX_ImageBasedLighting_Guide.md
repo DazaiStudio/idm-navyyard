@@ -137,16 +137,7 @@ In **Fixture Types** tab:
 
 ### 3.3 Fixture Patch
 
-In **Fixture Patch** tab, assign DMX addresses for each CYC fixture:
-
-| Fixture | Type | Mode | Universe | Starting Ch |
-|---------|------|------|----------|-------------|
-| LWCYC | LWCYC | 4COL | 1 | 1 |
-| LWCYC_001 | LWCYC | 4COL | 1 | 5 |
-| LWCYC_002 | LWCYC | 4COL | 1 | 9 |
-| LWCYC_003 | LWCYC | 4COL | 1 | 13 |
-
-Each fixture uses 4 channels (RGBW).
+Assigns DMX addresses to each fixture. Each fixture uses 4 channels (RGBW).
 
 <img src="screenshot/fix-patch.png" width="500">
 
