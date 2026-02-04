@@ -1,20 +1,20 @@
 # Unreal Engine 5.5 - DMX Image Based Lighting Guide
 
-使用 DMX Pixel Mapping 将场景画面转换为 DMX 信号输出至 LED CYC 灯具。
+Using DMX Pixel Mapping to convert scene capture to DMX signal output for LED CYC fixtures.
 
 ---
 
-## 硬件连接设置
+## Hardware Connection Setup
 
-### 设备清单
+### Equipment List
 
-| 设备 | 型号 | 用途 |
-|------|------|------|
-| Art-Net 转换器 | Netron EN12 | Art-Net 转 DMX512 |
-| DMX Splitter | Obsidian Control Systems | DMX 信号分配 |
-| LED CYC | Leviton LWCYC-00B | RGBW 灯具 |
+| Device | Model | Purpose |
+|--------|-------|---------|
+| Art-Net Converter | Netron EN12 | Art-Net to DMX512 |
+| DMX Splitter | Obsidian Control Systems | DMX signal distribution |
+| LED CYC | Leviton LWCYC-00B | RGBW fixture |
 
-### 连接方式
+### Connection Diagram
 
 ```
 PC (Ethernet) ──► Netron EN12 (Art-Net to DMX) ──► Obsidian Splitter ──► LED CYC
@@ -22,60 +22,60 @@ PC (Ethernet) ──► Netron EN12 (Art-Net to DMX) ──► Obsidian Splitter
 
 ![Hardware Connection](screenshot/physical/connection.JPG)
 
-### 网络设置
+### Network Settings
 
-**Windows 设置路径：** Settings > Network & Internet > Ethernet
+**Windows Path:** Settings > Network & Internet > Ethernet
 
-| 设置 | 值 |
-|------|-----|
+| Setting | Value |
+|---------|-------|
 | IP assignment | Manual |
 | IPv4 address | 10.108.12.51 |
 | IPv4 mask | 255.255.255.0 |
 
-> 电脑与 DMX Box 必须在同一网段
+> PC and DMX Box must be on the same subnet
 
 ![PC Network Settings](screenshot/physical/pc-network.png)
 
-### Netron EN12 设置
+### Netron EN12 Settings
 
-| 设置 | 值 |
-|------|-----|
+| Setting | Value |
+|---------|-------|
 | IP Address | 10.108.12.43 |
-| Status | No Cue (待机) |
+| Status | No Cue (Standby) |
 
 ![Netron EN12](screenshot/physical/dmxbox_setting.JPG)
 
 ---
 
-## 1. 启用 DMX 插件
+## 1. Enable DMX Plugins
 
-**Edit > Plugins** 搜索 "DMX"，启用以下插件：
+**Edit > Plugins** search "DMX", enable the following:
 
-| 插件名称 | 用途 |
-|---------|------|
-| DMX Control Console | DMX 测试控制台 |
-| DMX Engine | DMX 核心功能 |
-| DMX Fixtures | 灯具 Blueprint |
-| DMX Pixel Mapping | 像素映射 (核心功能) |
-| DMX Protocol | DMX 协议支持 |
-| Remote Control Protocol DMX | 远程控制 |
+| Plugin | Purpose |
+|--------|---------|
+| DMX Control Console | DMX testing console |
+| DMX Engine | DMX core functionality |
+| DMX Fixtures | Fixture Blueprints |
+| DMX Pixel Mapping | Pixel mapping (core feature) |
+| DMX Protocol | DMX protocol support |
+| Remote Control Protocol DMX | Remote control |
 
 ![DMX Plugins](screenshot/dmx-plugin.png)
 
 ---
 
-## 2. 创建 DMX Library
+## 2. Create DMX Library
 
-**Content Browser > 右键 > DMX > DMX Library**
+**Content Browser > Right-click > DMX > DMX Library**
 
-命名：`DMXLib_CYC`
+Name: `DMXLib_CYC`
 
-### 2.1 设置 Output Ports
+### 2.1 Configure Output Ports
 
-在 **Library Settings** 标签页：
+In the **Library Settings** tab:
 
-| 设置 | 值 |
-|------|-----|
+| Setting | Value |
+|---------|-------|
 | Output Port | OutputPort1 |
 | Protocol | Art-Net |
 | Local Universe | 1 - 10 |
@@ -90,15 +90,15 @@ PC (Ethernet) ──► Netron EN12 (Art-Net to DMX) ──► Obsidian Splitter
 
 **Edit > Project Settings > Plugins > DMX**
 
-| 设置 | 值 |
-|------|-----|
+| Setting | Value |
+|---------|-------|
 | Protocol Type | Art Net |
 | Communication Type | Broadcast |
-| Network Interface Card IP | 192.168.1.91 (你的网卡 IP) |
+| Network Interface Card IP | 192.168.1.91 (your NIC IP) |
 | Input into Engine | ✓ |
 | Local Universe Start | 1 |
 | Amount of Universes | 10 |
-| Protocol Universe Remap | (根据需求设置) |
+| Protocol Universe Remap | (configure as needed) |
 | Send DMX by default | ✓ |
 | Receive DMX by default | ✓ |
 
@@ -106,21 +106,21 @@ PC (Ethernet) ──► Netron EN12 (Art-Net to DMX) ──► Obsidian Splitter
 
 ---
 
-## 4. 创建 Fixture Type
+## 4. Create Fixture Type
 
-在 DMX Library 的 **Fixture Types** 标签页：
+In DMX Library **Fixture Types** tab:
 
 ### LWCYC (LED Cyclorama)
 
-| 设置 | 值 |
-|------|-----|
+| Setting | Value |
+|---------|-------|
 | Name | LWCYC |
 | DMX Category | Other |
 | Mode | 4COL |
 | Auto Channel Span | ✓ |
 | Fixture Matrix Enabled | ✗ |
 
-### Channel 配置 (4COL Mode)
+### Channel Configuration (4COL Mode)
 
 | Ch | Name | Attribute |
 |----|------|-----------|
@@ -137,7 +137,7 @@ PC (Ethernet) ──► Netron EN12 (Art-Net to DMX) ──► Obsidian Splitter
 
 ![Fixture Type](screenshot/fix_type.png)
 
-### LWCYC-00B 完整 DMX Channel 表
+### LWCYC-00B Complete DMX Channel Chart
 
 ![Channel Chart](screenshot/physical/ledcyc_channelchart.JPG)
 
@@ -158,7 +158,7 @@ PC (Ethernet) ──► Netron EN12 (Art-Net to DMX) ──► Obsidian Splitter
 | 2 | Saturation | 0-255 | 0-100% |
 | 3 | Brightness | 0-255 | 0-100% |
 
-#### FIL Mode (2 channels) - 16 色效果
+#### FIL Mode (2 channels) - 16 Color Effects
 
 | Ch | Control | DMX Value | Color |
 |----|---------|-----------|-------|
@@ -192,9 +192,9 @@ PC (Ethernet) ──► Netron EN12 (Art-Net to DMX) ──► Obsidian Splitter
 
 ---
 
-## 5. 创建 Fixture Patch
+## 5. Create Fixture Patch
 
-在 **Fixture Patch** 标签页，为每个 CYC 灯具分配 DMX 地址：
+In **Fixture Patch** tab, assign DMX addresses for each CYC fixture:
 
 | Fixture | Type | Mode | Universe | Starting Ch |
 |---------|------|------|----------|-------------|
@@ -203,20 +203,20 @@ PC (Ethernet) ──► Netron EN12 (Art-Net to DMX) ──► Obsidian Splitter
 | LWCYC_002 | LWCYC | 4COL | 1 | 9 |
 | LWCYC_003 | LWCYC | 4COL | 1 | 13 |
 
-每个灯具占用 4 channels (RGBW)。
+Each fixture uses 4 channels (RGBW).
 
 ![Fixture Patch](screenshot/fix-patch.png)
 
 ---
 
-## 6. 创建 Render Target
+## 6. Create Render Target
 
-**Content Browser > 右键 > Textures > Render Target**
+**Content Browser > Right-click > Textures > Render Target**
 
-命名：`RT_DownSample_CYC`
+Name: `RT_DownSample_CYC`
 
-| 设置 | 值 |
-|------|-----|
+| Setting | Value |
+|---------|-------|
 | Size X | 128 |
 | Size Y | 128 |
 | Render Target Format | RTF RGBA16f |
@@ -228,48 +228,48 @@ PC (Ethernet) ──► Netron EN12 (Art-Net to DMX) ──► Obsidian Splitter
 
 ---
 
-## 7. 创建 Scene Capture 2D
+## 7. Create Scene Capture 2D
 
-在场景中放置 **BP_DownSampleSceneCapture_CYC**
+Place **BP_DownSampleSceneCapture_CYC** in the scene.
 
-### 设置
+### Settings
 
-| 属性 | 值 |
-|------|-----|
+| Property | Value |
+|----------|-------|
 | Texture Target | RT_DownSample_CYC |
 | Capture Source | Final Color (LDR) |
-| FOV | 根据需求调整 |
+| FOV | Adjust as needed |
 
 ![Scene Capture](screenshot/BP_DnSampleCap.png)
 
 ---
 
-## 8. 设置 DMX Pixel Mapping
+## 8. Configure DMX Pixel Mapping
 
-**Content Browser > 右键 > DMX > DMX Pixel Mapping**
+**Content Browser > Right-click > DMX > DMX Pixel Mapping**
 
-命名：`DMXPM_PixelMap_CYC`
+Name: `DMXPM_PixelMap_CYC`
 
-### 8.1 添加 Fixture Group
+### 8.1 Add Fixture Group
 
-选择所有 LWCYC fixtures 加入 Pixel Mapping。
+Select all LWCYC fixtures to add to Pixel Mapping.
 
-### 8.2 设置 Pixel Mapping
+### 8.2 Pixel Mapping Settings
 
-| 设置 | 值 |
-|------|-----|
+| Setting | Value |
+|---------|-------|
 | Fixture Group | DMXLib_CYC |
 | Input Texture | RT_DownSample_CYC |
-| Distribution | 根据灯具排列设置 |
-| Apply Blur | (可选) |
+| Distribution | Configure based on fixture layout |
+| Apply Blur | (Optional) |
 
 ![Pixel Mapping](screenshot/dmx_pxielmapping.png)
 
 ---
 
-## 9. Blueprint 整合
+## 9. Blueprint Integration
 
-创建 **BP_PixelMappingManager_CYC**
+Create **BP_PixelMappingManager_CYC**
 
 ### Event Graph
 
@@ -293,24 +293,24 @@ Event Tick
 
 ---
 
-## 10. 场景设置
+## 10. Level Setup
 
-在 Level 中放置：
+Place in Level:
 
-1. **BP_DownSampleSceneCapture_CYC** - 捕捉场景画面
-2. **BP_PixelMappingManager_CYC** - 处理并发送 DMX
-3. **DirectionalLight** - 场景主光源
-4. **SEQ_ABC_Test** - (可选) Sequencer 动画
+1. **BP_DownSampleSceneCapture_CYC** - Captures scene image
+2. **BP_PixelMappingManager_CYC** - Processes and sends DMX
+3. **DirectionalLight** - Main scene light
+4. **SEQ_ABC_Test** - (Optional) Sequencer animation
 
 ![Level Setup](screenshot/bp_pix.png)
 
 ---
 
-## 11. 测试 - DMX Control Console
+## 11. Testing - DMX Control Console
 
 **Window > DMX Control Console**
 
-可以手动测试每个灯具的 RGBW 输出：
+Manually test RGBW output for each fixture:
 
 | Fixture | Red | Green | Blue | White |
 |---------|-----|-------|------|-------|
@@ -320,9 +320,9 @@ Event Tick
 
 ---
 
-## 资产清单
+## Asset List
 
-| 类型 | 名称 | 路径 |
+| Type | Name | Path |
 |------|------|------|
 | DMX Library | DMXLib_CYC | Content/DMX/ |
 | Render Target | RT_DownSample_CYC | Content/DMX/ |
@@ -332,7 +332,7 @@ Event Tick
 
 ---
 
-## 流程总结
+## Workflow Summary
 
 ```
 Scene Capture 2D
