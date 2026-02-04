@@ -77,7 +77,7 @@ PC (Ethernet) ──► Obsidian Netron EN12 (Art-Net to DMX) ──► LED CYC
 
 **Edit > Plugins** search "DMX", enable all DMX-related plugins.
 
-<img src="screenshot/dmx-plugin.png" width="500">
+<img src="screenshot/dmx-plugin.png" width="700">
 
 ---
 
@@ -102,7 +102,7 @@ PC (Ethernet) ──► Obsidian Netron EN12 (Art-Net to DMX) ──► LED CYC
 | Receive DMX by default | ✓ |
 
 </td>
-<td><img src="screenshot/dmx_output_setting-2.png" width="400"></td>
+<td><img src="screenshot/dmx_output_setting-2.png" width="500"></td>
 </tr>
 </table>
 
