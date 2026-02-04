@@ -212,7 +212,7 @@ Sends pixel mapping data to DMX output every frame.
 
 ---
 
-## 8. Testing - DMX Control Console
+## 8. Tips - DMX Control Console
 
 **Window > DMX Control Console**
 
