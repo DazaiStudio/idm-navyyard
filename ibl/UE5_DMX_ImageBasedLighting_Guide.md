@@ -165,7 +165,7 @@ Name: `RT_DownSample_CYC`
 | Address Y | Clamp |
 
 </td>
-<td><img src="screenshot/dmx_pxiel_rendertarget.png" width="400"></td>
+<td><img src="screenshot/dmx_pxiel_rendertarget.png" width="500"></td>
 </tr>
 </table>
 
@@ -186,7 +186,7 @@ Captures scene and outputs to Render Target.
 | FOV | Adjust as needed |
 
 </td>
-<td><img src="screenshot/BP_DnSampleCap.png" width="400"></td>
+<td><img src="screenshot/BP_DnSampleCap.png" width="500"></td>
 </tr>
 </table>
 
