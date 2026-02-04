@@ -206,25 +206,7 @@ Select all LWCYC fixtures to add to Pixel Mapping.
 
 ## 7. Blueprint Integration
 
-Create **BP_PixelMappingManager_CYC**
-
-### Event Graph
-
-```
-Event Tick
-    |
-    v
-[Render Texture Sample and Send DMX]
-    |
-    +-- Delta Seconds: 0
-    +-- Tick Component
-    |
-    v
-[Get DMX Pixel Mapping Renderer Component]
-    |
-    +-- PixelMapping: DMXPM_PixelMap_CYC
-    +-- Pixel Mapping: RT_DownSample_CYC
-```
+Sends pixel mapping data to DMX output every frame.
 
 <img src="screenshot/BP_PxManager.png" width="700">
 
