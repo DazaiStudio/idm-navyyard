@@ -126,16 +126,6 @@ In the **Library Settings** tab:
 
 In DMX Library **Fixture Types** tab:
 
-### LWCYC (LED Cyclorama)
-
-| Setting | Value |
-|---------|-------|
-| Name | LWCYC |
-| DMX Category | Other |
-| Mode | 4COL |
-| Auto Channel Span | ✓ |
-| Fixture Matrix Enabled | ✗ |
-
 ### Channel Configuration (4COL Mode)
 
 | Ch | Name | Attribute |
