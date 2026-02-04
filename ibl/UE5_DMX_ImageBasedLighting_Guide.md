@@ -118,22 +118,7 @@ Name: `DMXLib_CYC`
 
 In the **Library Settings** tab:
 
-<table>
-<tr>
-<td>
-
-| Setting | Value |
-|---------|-------|
-| Output Port | OutputPort1 |
-| Protocol | Art-Net |
-| Local Universe | 1 - 10 |
-| Extern Universe | 0 - 9 |
-| Enabled | ✓ |
-
-</td>
-<td><img src="screenshot/dmx_output_setting-1.png" width="400"></td>
-</tr>
-</table>
+<img src="screenshot/dmx_output_setting-1.png" width="500">
 
 ---
 
