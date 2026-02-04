@@ -112,6 +112,8 @@ PC (Ethernet) ──► Obsidian Netron EN12 (Art-Net to DMX) ──► LED CYC
 
 **Content Browser > Right-click > DMX > DMX Library**
 
+<img src="screenshot/dmx_pxiel_essential - dmxlib.png" width="120">
+
 Name: `DMXLib_CYC`
 
 ### 3.1 Configure Output Ports
@@ -160,6 +162,8 @@ Each fixture uses 4 channels (RGBW).
 
 **Content Browser > Right-click > Textures > Render Target**
 
+<img src="screenshot/dmx_pxiel_essential - rt.png" width="120">
+
 Name: `RT_DownSample_CYC`
 
 <table>
@@ -206,6 +210,8 @@ Place **BP_DownSampleSceneCapture_CYC** in the scene.
 ## 8. Configure DMX Pixel Mapping
 
 **Content Browser > Right-click > DMX > DMX Pixel Mapping**
+
+<img src="screenshot/dmx_pxiel_essential - dmxpixmapping.png" width="120">
 
 Name: `DMXPM_PixelMap_CYC`
 
@@ -268,6 +274,8 @@ Place in Level:
 ## 11. Testing - DMX Control Console
 
 **Window > DMX Control Console**
+
+<img src="screenshot/dmx_pxiel_essential - dmxconsole.png" width="120">
 
 Manually test RGBW output for each fixture:
 
