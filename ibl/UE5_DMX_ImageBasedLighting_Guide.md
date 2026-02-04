@@ -65,7 +65,7 @@ PC (Ethernet) ──► Obsidian Netron EN12 (Art-Net to DMX) ──► LED CYC
 | Status | No Cue (Standby) |
 
 </td>
-<td><img src="screenshot/physical/dmxbox_setting.JPG" width="350"></td>
+<td><img src="screenshot/physical/dmxbox_setting.JPG" width="500"></td>
 </tr>
 </table>
 
