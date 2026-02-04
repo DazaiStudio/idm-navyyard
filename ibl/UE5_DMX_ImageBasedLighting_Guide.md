@@ -4,7 +4,7 @@ Using DMX Pixel Mapping to convert scene capture to DMX signal output for LED CY
 
 **Demo:**
 
-<img src="ue_demo.gif" width="480">
+<img src="ue_demo.gif" width="640">
 
 ---
 
