@@ -167,76 +167,31 @@ Assigns DMX addresses to each fixture. Each fixture uses 4 channels (RGBW).
 
 ---
 
-## 4. Render Target
-
-Captures downsampled scene image for pixel mapping.
-
-<img src="screenshot/dmx_pxiel_essential - rt.png" width="700">
-
-Name: `RT_DownSample_CYC`
-
-<table>
-<tr>
-<td>
-
-| Setting | Value |
-|---------|-------|
-| Size X | 128 |
-| Size Y | 128 |
-| Render Target Format | RTF RGBA16f |
-| Clear Color | 0, 0, 0, 1 |
-| Address X | Clamp |
-| Address Y | Clamp |
-
-</td>
-<td><img src="screenshot/dmx_pxiel_rendertarget.png" width="700"></td>
-</tr>
-</table>
-
----
-
-## 5. Scene Capture 2D
-
-Captures scene and outputs to Render Target.
-
-<img src="screenshot/BP_DnSampleCap.png" width="700">
-
----
-
-## 6. DMX Pixel Mapping
-
-Maps Render Target pixels to DMX fixtures.
-
-<img src="screenshot/dmx_pxiel_essential - dmxpixmapping.png" width="700">
-
-Name: `DMXPM_PixelMap_CYC`
-
-### 6.1 Add Fixture Group
-
-Select all LWCYC fixtures to add to Pixel Mapping.
-
-### 6.2 Pixel Mapping Settings
-
-| Setting | Value |
-|---------|-------|
-| Fixture Group | DMXLib_CYC |
-| Input Texture | RT_DownSample_CYC |
-| Distribution | Configure based on fixture layout |
-| Apply Blur | (Optional) |
-
-<img src="screenshot/dmx_pxielmapping.png" width="700">
-
----
-
-## 7. Blueprint We Use
+## 4. Blueprint
 
 Sends pixel mapping data to DMX output every frame.
 
 <img src="screenshot/bp_pix.png" width="700">
 
+### 4.1 DMX Pixel Mapping
+
+Maps Render Target pixels to DMX fixtures.
+
+<img src="screenshot/dmx_pxiel_essential - dmxpixmapping.png" width="700">
+
+<img src="screenshot/dmx_pxielmapping.png" width="700">
+
+### 4.2 Render Target
+
+Captures downsampled scene image for pixel mapping.
+
+<img src="screenshot/dmx_pxiel_essential - rt.png" width="700">
+
+<img src="screenshot/dmx_pxiel_rendertarget.png" width="700">
+
 ---
 
-## 8. Tips - DMX Control Console
+## 5. Tips - DMX Control Console
 
 **Window > DMX Control Console**
 
