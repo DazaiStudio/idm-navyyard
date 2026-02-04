@@ -204,11 +204,11 @@ Select all LWCYC fixtures to add to Pixel Mapping.
 
 ---
 
-## 7. Blueprint Integration
+## 7. Blueprint We Use
 
 Sends pixel mapping data to DMX output every frame.
 
-<img src="screenshot/BP_PxManager.png" width="700">
+<img src="screenshot/bp_pix.png" width="700">
 
 ---
 
