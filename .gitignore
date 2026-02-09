@@ -1,5 +1,7 @@
 # PDF files (too large for GitHub)
 *.pdf
+!Lighting_Equipment_Donation_Inventory.pdf
+!Navy_Yard_Lighting_Storage_Plan.pdf
 
 # macOS
 .DS_Store
