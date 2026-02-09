@@ -1,5 +1,15 @@
 # Navy Yard Lighting Storage Plan
 
+## Fixtures to Keep
+
+| Fixture | Model | Color Temp | Qty |
+|---------|-------|------------|-----|
+| LED Cyclorama | LWCYC-000 | RGBW | 16 |
+| LED Fresnel | LFD32-50B | 5600K | 19 |
+| LED Ellipsoidal (Profile) | LED00-50B | 5600K | 2 |
+
+---
+
 ## Purchase List
 
 ### [McMaster-Carr Extra Heavy Duty Shelving](https://www.mcmaster.com/products/shelving/shelving-1~/extra-heavy-duty-quick-assembly-shelving-9/)
@@ -92,4 +102,4 @@ See full inventory details: [Lighting Equipment Donation Inventory](Lighting_Equ
 
 ---
 
-*Last Updated: 2026-01-28*
+*Last Updated: 2026-02-09*
