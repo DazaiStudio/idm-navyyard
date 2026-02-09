@@ -8,6 +8,13 @@
 | LED Fresnel | LFD32-50B | 5600K | 19 |
 | LED Ellipsoidal (Profile) | LED00-50B | 5600K | 2 |
 
+### Accessories
+
+| Accessory | Model | Qty | Note |
+|-----------|-------|-----|------|
+| Barn Door | LFD32-BDB | 19 | For LED Fresnel |
+| Lens Tube | LED18-LTB (18-36°) | 2 | For LED Ellipsoidal |
+
 ---
 
 ## Purchase List
