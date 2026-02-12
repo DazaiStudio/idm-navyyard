@@ -1,7 +1,0 @@
-Category,Model,Qty,Watt,Color Temp,Dimensions (cm),Note
-LED Fresnel,LFD32-50B,19,320W,5600K,35 x 49 x 49,
-Barn Door,LFD32-BDB,19,,,,"For LED Fresnel"
-LED Ellipsoidal (Profile),LED00-50B,2,200W,5600K,25 x 47 x 35,
-Lens Tube,LED18-LTB,2,,,,18-36° / For LED Ellipsoidal
-LED Cyclorama,LWCYC-000,16,350W,RGBW,41 x 63 x 21,"1 used / 15 new"
-DMX Splitter,DMXSM-H18,2,,,,"1-in 8-out / 512 per output"
